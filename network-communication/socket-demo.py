@@ -17,7 +17,7 @@ def send_msg(udp_socket):
     '''
     # 发送
     # 获取要发送的内容
-    dest_ip, dest_port = '', ''
+    dest_ip, dest_port = ' ', ' '
     if dest_ip:
         dest_ip = input('请输入对方的ip')
     if dest_port:
@@ -53,11 +53,12 @@ def main():
             send_msg(udp_socket)
         elif op == '2':
             # 接受
+            print('c')
             recv_msg(udp_socket)
         elif op == '0':
             break
         else:
-            print('')
+            print('输入有误，请重新输入')
 
 if __name__ == '__main__':
     main()
