@@ -22,18 +22,22 @@
                  ┗┛  ┗┛
 """
 
-from multiprocessing import Pool
+import multiprocessing
 import os
+import time
 
 
 def copy_file(origin, old_path, new_path):
+    print('线程%d 正在拷贝文件%s' % (os.getpid(), origin))
+    # print('b' if '' else 'a ')
+    # print(os.getpgid() if os.getpgid() else 'c')
+
+    # time.sleep(1)
     a = open(old_path + '/' + origin, 'r', encoding='utf-8')
     str = a.read()
     a.close()
+
     b = open(new_path + '/' + origin, 'w', encoding='utf-8')
-    print('线程%s 正在拷贝文件%s' % (os.getpgid(), origin))
-    b.write('coco')
-    print(str)
     b.write(str)
     b.close()
 
@@ -44,13 +48,11 @@ if __name__ == '__main__':
         print('该文件夹已存在，无需创建')
         os.mkdir(new_folder_name)
     source_folder_name = 'origin'  # input('请输入目标文件夹名字：')
-    print(source_folder_name)
     # 获取目标文件下所有文件
     file_names = os.listdir(source_folder_name)
     # 创建线程池
-    po = Pool(5)
+    po = multiprocessing.Pool()
     for file_name in file_names:
-        print(file_name)
-        po.apply_async(copy_file, args=(file_name, source_folder_name, new_folder_name))
+        res = po.apply_async(copy_file, args={file_name, source_folder_name, new_folder_name})
     po.close()
     po.join()
