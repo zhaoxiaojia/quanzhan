@@ -6,8 +6,8 @@
 # @File    : 自己实现一个可迭代对象.py
 # @Email   : chao.li@amlogic.com
 # @Software: PyCharm
-from collections import Iterator
-from collections import Iterable
+from collections.abc import Iterator
+from collections.abc import Iterable
 
 class Classmate:
     def __init__(self):
@@ -17,18 +17,18 @@ class Classmate:
         self.names.append(name)
 
     def __iter__(self):
-        return ClassIterator()
+        return ClassIterator(self)
 
 
 class ClassIterator:
-    def __init__(self):
-        pass
+    def __init__(self,obj):
+        self.obj = obj
 
     def __iter__(self):
         pass
 
     def __next__(self):
-        return 11
+        return self.obj.names[0]
 
 
 if __name__ == '__main__':
@@ -38,6 +38,7 @@ if __name__ == '__main__':
     classmate.add('sven')
     classmate_iterator = iter(classmate)
     print(isinstance(classmate_iterator, Iterator))
-    print(classmate_iterator)
-    # for name in classmate:
-    #     print(name)
+    print(isinstance(classmate, Iterable))
+    # print(next(classmate_iterator))
+    for name in classmate:
+        print(name)
