@@ -1,0 +1,4 @@
+<map id="aceWifiMgr_eventCb" name="aceWifiMgr_eventCb">
+<area shape="rect" id="node2" href="$structaceWifiMgr__wifiInfo__t.html" title="{aceWifiMgr_wifiInfo_t\n|+ bssid\l+ ssid\l+ ssidLength\l+ authMode\l+ frequency\l+ reason\l|}" alt="" coords="12,160,160,311"/>
+<area shape="rect" id="node3" href="$structaceWifi__ipAddress__t.html" title="{aceWifi_ipAddress_t\n|+ type\l+ ipAddress\l|}" alt="" coords="15,5,157,97"/>
+</map>

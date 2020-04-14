@@ -1,0 +1,7 @@
+<map id="BTService" name="BTService">
+<area shape="rect" id="node5" href="$structBTIncludedService__t.html" title="Structure describing an included service. " alt="" coords="169,211,311,289"/>
+<area shape="rect" id="node2" href="$structBTAttribute__t.html" title="Generic BLE attribute. " alt="" coords="342,359,461,451"/>
+<area shape="rect" id="node3" href="$structBTCharacteristic__t.html" title="Structure describing a characteristic. " alt="" coords="336,204,467,296"/>
+<area shape="rect" id="node4" href="$structBTUuid__t.html" title="UUID. " alt="" coords="437,5,515,141"/>
+<area shape="rect" id="node6" href="$structBTCharacteristicDescr__t.html" title="Structure describing a characteristic descriptor. " alt="" coords="491,211,658,289"/>
+</map>

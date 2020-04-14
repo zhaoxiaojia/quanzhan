@@ -1,0 +1,4 @@
+<map id="WhisperJoinWifiContext_s" name="WhisperJoinWifiContext_s">
+<area shape="rect" id="node2" href="$structaceWifiMgr__scanResultList__t.html" title="{aceWifiMgr_scanResultList_t\n|+ length\l|}" alt="" coords="5,189,199,267"/>
+<area shape="rect" id="node3" href="$structaceWifiMgr__scanResult__t.html" title="{aceWifiMgr_scanResult_t\n|+ ssid\l+ ssidLength\l+ authMode\l+ rssi\l|}" alt="" coords="16,5,188,127"/>
+</map>

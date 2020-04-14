@@ -1,0 +1,5 @@
+<map id="broker_internal_s" name="broker_internal_s">
+<area shape="rect" id="node2" href="$structaceDispatcher__dispatchHandle__s.html" title="Dispatch handle for the module to use. " alt="" coords="44,175,261,252"/>
+<area shape="rect" id="node4" href="$structaceDispatcher__module__s.html" title="Dispatch handler interface definition structure. " alt="" coords="151,315,320,436"/>
+<area shape="rect" id="node3" href="$unionaceDispatcher__config__t.html" title="This type defines the dispatcher handle. " alt="" coords="73,5,232,112"/>
+</map>

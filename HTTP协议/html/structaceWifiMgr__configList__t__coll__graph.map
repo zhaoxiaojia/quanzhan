@@ -1,0 +1,4 @@
+<map id="aceWifiMgr_configList_t" name="aceWifiMgr_configList_t">
+<area shape="rect" id="node2" href="$structaceWifiMgr__config__t.html" title="{aceWifiMgr_config_t\n|+ ssid\l+ ssidLength\l+ psk\l+ pskLength\l+ wepKeyIndex\l+ authMode\l+ hiddenSsid\l+ status\l+ isTethered\l|}" alt="" coords="16,160,157,355"/>
+<area shape="rect" id="node3" href="$structaceWifiMgr__wepKey__t.html" title="{aceWifiMgr_wepKey_t\n|+ wepKey\l+ keyLength\l|}" alt="" coords="10,5,163,97"/>
+</map>

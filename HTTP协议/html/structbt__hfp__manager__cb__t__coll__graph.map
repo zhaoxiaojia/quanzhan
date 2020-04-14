@@ -1,0 +1,4 @@
+<map id="bt_hfp_manager_cb_t" name="bt_hfp_manager_cb_t">
+<area shape="rect" id="node2" href="$structBTHfpInterface__t.html" title="{BTHfpInterface_t\n|+ xSize\l+ pxHfpInit\l+ pxHfpConnect\l+ pxHfpDisconnect\l+ pxHfpConnectAudio\l+ pxHfpDisconnectAudio\l+ pxHfpStartVoiceRecognition\l+ pxHfpStopVoiceRecognition\l+ pxVolumeControl\l+ pxDeviceStatusNotification\land 9 more...\l|}" alt="" coords="5,5,204,229"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="228,79,347,156"/>
+</map>

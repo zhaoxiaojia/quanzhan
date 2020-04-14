@@ -1,0 +1,8 @@
+<map id="lm_upload_ctx" name="lm_upload_ctx">
+<area shape="rect" id="node2" href="$structlm__crash__ctx.html" title="Defined Data structure for Crash upload context. This holds all information needed to upload each cra..." alt="" coords="339,491,439,568"/>
+<area shape="rect" id="node3" href="$structlm__crash__dedupe__map.html" title="Defined Data structure for storing the crash dedupe elements for each crash descriptor. " alt="" coords="209,255,365,347"/>
+<area shape="rect" id="node4" href="$structlm__crash__dedupe__element.html" title="Defined Data structure for storing dedupe element for each crash descriptor It contains crash descrip..." alt="" coords="5,5,183,112"/>
+<area shape="rect" id="node5" href="$structlm__crash__entry__t.html" title="Defined Data structure for crash entry. This contains all the information for a individual crash file..." alt="" coords="389,175,545,428"/>
+<area shape="rect" id="node6" href="$structlm__log__ctx.html" title="Defined Data structure for log upload context. This holds all information needed to upload each log s..." alt="" coords="538,491,623,568"/>
+<area shape="rect" id="node7" href="$structlm__log__entry__t.html" title="Defined Data structure for log entry. This contains all the information for a individual log file..." alt="" coords="570,211,719,391"/>
+</map>

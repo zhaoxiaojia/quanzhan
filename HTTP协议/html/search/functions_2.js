@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['stailq_5fentry',['STAILQ_ENTRY',['../structaceBT__gattDescRec__t.html#a25b689cc8bc7f3eaaf258f87e49518cf',1,'aceBT_gattDescRec_t::STAILQ_ENTRY()'],['../structaceBT__gattCharRec__t.html#adb3c86d0a8cb786b9ccc2b77c6881f76',1,'aceBT_gattCharRec_t::STAILQ_ENTRY()'],['../structaceBT__gattIncSvcRec__t.html#abe74a11e883d6e51d725ac80ad41216d',1,'aceBT_gattIncSvcRec_t::STAILQ_ENTRY()'],['../structaceBT__gattDecRec__t.html#a1f2a80f96ae07823b467cf2e5a20b2f4',1,'aceBT_gattDecRec_t::STAILQ_ENTRY()']]],
+  ['stailq_5fhead',['STAILQ_HEAD',['../group__ACE__BLE__DS__DEFS.html#ga8d54849d7aafa060cb292c6974efac9a',1,'STAILQ_HEAD(gattDescList, aceBT_gattDescRec_t):&#160;aceBT_ble_defines.h'],['../group__ACE__BLE__DS__DEFS.html#gaa237cb3bec4a4d268c74e4d5f6bb8c09',1,'STAILQ_HEAD(gattCharsList, aceBT_gattCharRec_t):&#160;aceBT_ble_defines.h'],['../group__ACE__BLE__DS__DEFS.html#ga4b57ad8f4ff6fa84f5ce60bf32c09fa8',1,'STAILQ_HEAD(gattIncludedSvcList, aceBT_gattIncSvcRec_t):&#160;aceBT_ble_defines.h']]]
+];

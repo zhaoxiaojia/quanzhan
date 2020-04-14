@@ -1,0 +1,4 @@
+<map id="bt_hid_host_mgr_cb_t" name="bt_hid_host_mgr_cb_t">
+<area shape="rect" id="node2" href="$structBTHIDHostInterface__t.html" title="{BTHIDHostInterface_t\n|+ xSize\l+ pxHIDHostInit\l+ pxHIDHostCleanup\l+ pxHIDHostConnect\l+ pxHIDHostDisconnect\l+ pxHIDHostVirtualUnplug\l+ pxHIDHostSetInfo\l+ pxHIDHostGetProtocol\l+ pxHIDHostSetProtocol\l+ pxHIDHostGetReport\l+ pxHIDHostSetReport\l+ pxHIDHostSendData\l+ pxHIDHostGetBatteryLevel\l|}" alt="" coords="5,5,200,259"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="225,93,343,171"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="acebt_device_properties_api_data_t" name="acebt_device_properties_api_data_t">
+<area shape="rect" id="node2" href="$structaceBT__deviceProperties__t.html" title="Struct Local device properties. " alt="" coords="55,145,229,223"/>
+<area shape="rect" id="node3" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="5,5,132,83"/>
+<area shape="rect" id="node4" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="156,5,275,83"/>
+</map>

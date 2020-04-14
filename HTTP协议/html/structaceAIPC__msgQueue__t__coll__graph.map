@@ -1,0 +1,6 @@
+<map id="aceAIPC_msgQueue_t" name="aceAIPC_msgQueue_t">
+<area shape="rect" id="node2" href="$structaceAIPC__serviceChannel__t.html" title="AIPC service channel. " alt="" coords="49,796,239,1020"/>
+<area shape="rect" id="node3" href="$structaceAIPC__parameter__t.html" title="data member in task block received by server " alt="" coords="162,5,313,229"/>
+<area shape="rect" id="node4" href="$structsocketThread__t.html" title="AIPC socket client side server info block. " alt="" coords="303,423,433,588"/>
+<area shape="rect" id="node5" href="$structaceAIPC__msg__t.html" title="{aceAIPC_msg_t\n|+ dataLength\l+ status\l+ buffer\l|}" alt="" coords="51,292,170,399"/>
+</map>

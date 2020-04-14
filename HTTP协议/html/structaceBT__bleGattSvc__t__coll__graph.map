@@ -1,0 +1,5 @@
+<map id="aceBT_bleGattSvc_t" name="aceBT_bleGattSvc_t">
+<area shape="rect" id="node2" href="$structaceBT__bleGattInstance.html" title="{aceBT_bleGattInstance\n|+ instanceHandle\l|}" alt="" coords="5,211,164,289"/>
+<area shape="rect" id="node3" href="$structaceBT__bleGattsService__t.html" title="Service structure of the GATTS. " alt="" coords="189,160,359,340"/>
+<area shape="rect" id="node4" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="223,5,325,97"/>
+</map>

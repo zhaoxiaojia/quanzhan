@@ -1,0 +1,5 @@
+<map id="aceBT_gattDecRec_t" name="aceBT_gattDecRec_t">
+<area shape="rect" id="node2" href="$structaceBT__bleGattDescriptor__t.html" title="BLE GATT Descriptor. " alt="" coords="94,175,274,296"/>
+<area shape="rect" id="node3" href="$structaceBT__bleGattRecord__t.html" title="BLE GATT record. " alt="" coords="5,5,168,112"/>
+<area shape="rect" id="node4" href="$structaceBT__bleGattBlobValue__t.html" title="BLE Blob value. " alt="" coords="192,5,371,112"/>
+</map>

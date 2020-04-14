@@ -1,0 +1,12 @@
+<map id="wifi" name="wifi">
+<area shape="rect" id="node2" href="dir_646ad70dd1dd2674896295bae4a2726a.html" title="ap_selection" alt="" coords="518,63,613,111"/>
+<area shape="rect" id="node3" href="dir_e654a299a6c01000e138fd38c182ad65.html" title="cli" alt="" coords="421,63,493,111"/>
+<area shape="rect" id="node4" href="dir_1a28be8bc234ac82b095b58a810d5c98.html" title="coex" alt="" coords="325,63,397,111"/>
+<area shape="rect" id="node5" href="dir_6bb48764a38a9361510cbdeb0f89181c.html" title="hsm" alt="" coords="229,63,301,111"/>
+<area shape="rect" id="node6" href="dir_fee7d9bf61b56645a16c6d74b65f3021.html" title="include" alt="" coords="133,63,205,111"/>
+<area shape="rect" id="node7" href="dir_1e378b526010935133afacd058b0cfe8.html" title="src" alt="" coords="37,63,109,111"/>
+<area shape="rect" id="node8" href="dir_644e041c3a6521da7b27eba0e4eb2b95.html" title="framework" alt="" coords="32,159,115,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000141_000000.html" title="1" alt="" coords="78,133,86,147"/>
+<area shape="rect" id="clust2" href="dir_faf12b5f340e9fa35bd14d4b8319b703.html" alt="" coords="27,52,720,121"/>
+<area shape="rect" id="clust1" href="dir_f382573a88a6eedb79e240e7ead9d11a.html" title="middleware" alt="" coords="16,16,731,132"/>
+</map>

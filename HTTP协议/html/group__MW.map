@@ -1,0 +1,7 @@
+<map id="Middleware" name="Middleware">
+<area shape="rect" id="node2" href="$group__ACE__WIFI.html" title="ACS Wifi Manager Middleware. " alt="" coords="141,5,343,32"/>
+<area shape="rect" id="node3" href="$group__ACEBT.html" title="ACE Bluetooth Middleware. " alt="" coords="153,56,331,83"/>
+<area shape="rect" id="node4" href="$group__FFS__PROVISIONER.html" title="FFS Provisioner middleware. " alt="" coords="149,107,335,133"/>
+<area shape="rect" id="node5" href="$group__ACE__LOGMGR.html" title="ACE LogManager Middleware. " alt="" coords="145,157,339,184"/>
+<area shape="rect" id="node6" href="$group__FFS.html" title="FFS Provisionable middleware. " alt="" coords="143,208,341,235"/>
+</map>

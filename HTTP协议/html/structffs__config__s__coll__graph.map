@@ -1,0 +1,7 @@
+<map id="ffs_config_s" name="ffs_config_s">
+<area shape="rect" id="node2" href="$structffs__provisioning__cfg.html" title="{ffs_provisioning_cfg\n|+ provisioning_mode\l+ advertising_watchdog\l+ provisioning_watchdog\l+ ble_provisioner_connected\l+ ble_provisioner_disconnected\l+ state_idle\l+ state_waiting_for_provisioner\l+ state_authorizing_provisioner\l+ state_actively_provisioning\l+ provisioning_complete\land 10 more...\l|}" alt="" coords="5,219,211,443"/>
+<area shape="rect" id="node3" href="$structffs__prov__status.html" title="{ffs_prov_status\n|+ is_registered\l+ state\l+ start_association\l+ start_registration\l|}" alt="" coords="235,270,368,391"/>
+<area shape="rect" id="node4" href="$structffs__registration__cfg.html" title="{ffs_registration_cfg\n|+ reg_token\l+ set_access_token\l+ set_refresh_token\l+ registration_complete\l+ deregistration_complete\l+ set_country_of_residence\l+ set_preferred_marketplace\l+ set_user_id\l|}" alt="" coords="393,241,581,421"/>
+<area shape="rect" id="node5" href="$structffs__aws__iot__cfg.html" title="{ffs_aws_iot_cfg\n|+ set_thing_name\l+ set_account_endpoint\l+ set_certificate\l+ set_cert_private_key\l_is_enc\l+ set_cert_private_key\l|}" alt="" coords="406,5,567,156"/>
+<area shape="rect" id="node6" href="$structffs__dev__info__s.html" title="{ffs_dev_info_s\n|+ ble_device_name\l+ device_type\l+ hw_revision\l+ fw_version\l+ product_index_string\l+ manufacturer_name_string\l+ device_serial_number\l+ dss_pubkey\l+ dss_pubkey_len\l+ soc_serial\l+ barcode_pin\l|}" alt="" coords="605,219,793,443"/>
+</map>

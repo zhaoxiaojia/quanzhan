@@ -1,0 +1,7 @@
+<map id="aceDispatcher_module_s" name="aceDispatcher_module_s">
+<area shape="rect" id="node2" href="$structaceDispatcher__dispatchHandle__s.html" title="Dispatch handle for the module to use. " alt="" coords="80,528,297,605"/>
+<area shape="rect" id="node3" href="$unionaceDispatcher__config__t.html" title="This type defines the dispatcher handle. " alt="" coords="5,351,164,458"/>
+<area shape="rect" id="node4" href="$structmsg.html" title="{msg\n|+ param\l+ param_resp\l+ ctx\l|}" alt="" coords="221,175,324,281"/>
+<area shape="rect" id="node5" href="$structdispatcherDemo__struct__y__t.html" title="{dispatcherDemo_struct_y_t\n|+ data\l+ cb\l|}" alt="" coords="85,13,268,105"/>
+<area shape="rect" id="node6" href="$structdispatcherDemo__sync__header__t.html" title="This is a header used for a self describing union of all the inter module communication types..." alt="" coords="293,5,445,112"/>
+</map>

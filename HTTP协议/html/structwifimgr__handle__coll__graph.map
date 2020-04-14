@@ -1,0 +1,7 @@
+<map id="wifimgr_handle" name="wifimgr_handle">
+<area shape="rect" id="node2" href="$structaceWifiMgr__scanResultList__t.html" title="{aceWifiMgr_scanResultList_t\n|+ length\l|}" alt="" coords="5,248,199,325"/>
+<area shape="rect" id="node3" href="$structaceWifiMgr__scanResult__t.html" title="{aceWifiMgr_scanResult_t\n|+ ssid\l+ ssidLength\l+ authMode\l+ rssi\l|}" alt="" coords="16,5,188,127"/>
+<area shape="rect" id="node4" href="$structwifi__mgr__cbs__t.html" title="Struct to store callbacks to whisperjoin_task. " alt="" coords="223,241,383,333"/>
+<area shape="rect" id="node5" href="$structaceWifiMgr__config__t.html" title="{aceWifiMgr_config_t\n|+ ssid\l+ ssidLength\l+ psk\l+ pskLength\l+ wepKeyIndex\l+ authMode\l+ hiddenSsid\l+ status\l+ isTethered\l|}" alt="" coords="407,189,549,384"/>
+<area shape="rect" id="node6" href="$structaceWifiMgr__wepKey__t.html" title="{aceWifiMgr_wepKey_t\n|+ wepKey\l+ keyLength\l|}" alt="" coords="401,20,555,112"/>
+</map>

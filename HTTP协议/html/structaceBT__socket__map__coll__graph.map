@@ -1,0 +1,8 @@
+<map id="aceBT_socket_map" name="aceBT_socket_map">
+<area shape="rect" id="node2" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="5,167,108,259"/>
+<area shape="rect" id="node3" href="$structaceBT__session.html" title="{aceBT_session\n|+ session_type\l+ p_session_data\l+ p_clientHdl\l|}" alt="" coords="275,160,401,267"/>
+<area shape="rect" id="node4" href="$structaceBT__sessionCallbacks__t.html" title="Bluetooth session callback struct. " alt="" coords="338,337,519,414"/>
+<area shape="rect" id="node5" href="$structaceBT__event__handler.html" title="{aceBT_event_handler\n|+ min\l+ max\l|}" alt="" coords="177,5,325,97"/>
+<area shape="rect" id="node6" href="$structaceBT__aipcHandles__t.html" title="{aceBT_aipcHandles_t\n|+ callback_server_id\l+ server_id\l|}" alt="" coords="349,5,500,97"/>
+<area shape="rect" id="node7" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="132,175,251,252"/>
+</map>

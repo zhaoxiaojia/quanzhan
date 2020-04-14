@@ -1,0 +1,5 @@
+<map id="aceBT_bleConnectionList_t" name="aceBT_bleConnectionList_t">
+<area shape="rect" id="node2" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="5,5,108,97"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="132,13,251,90"/>
+<area shape="rect" id="node4" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="275,13,465,90"/>
+</map>

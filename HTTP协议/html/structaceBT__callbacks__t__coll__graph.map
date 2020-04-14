@@ -1,0 +1,5 @@
+<map id="aceBT_callbacks_t" name="aceBT_callbacks_t">
+<area shape="rect" id="node2" href="$structaceBT__classicCallbacks__t.html" title="Defines the callback pointers for Classic Bluetooth events. " alt="" coords="5,204,203,311"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="151,5,270,83"/>
+<area shape="rect" id="node4" href="$structaceBT__commonCallbacks__t.html" title="Common Bluetooth callback struct. " alt="" coords="227,211,413,303"/>
+</map>

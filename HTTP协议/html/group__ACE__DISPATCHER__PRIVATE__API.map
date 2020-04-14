@@ -1,0 +1,8 @@
+<map id="Private API" name="Private API">
+<area shape="rect" id="node1" href="$group__ACE__DISPATCHER__INTERNAL__SHARED__TYPES.html" title="Data types private to the dispatcher implementation. " alt="" coords="308,5,485,47"/>
+<area shape="rect" id="node2" href="$group__ACE__DISPATCHER__EXECUTION__QUEUE.html" title="Execution Queue private to the dispatcher implementation. " alt="" coords="323,71,471,98"/>
+<area shape="rect" id="node3" href="$group__ACE__DISPATCHER__LIST.html" title="List private to the dispatcher implementation. " alt="" coords="329,122,465,149"/>
+<area shape="rect" id="node4" href="$group__ACE__DISPATCHER.html" title="ACE Dispatcher. " alt="" coords="5,122,123,149"/>
+<area shape="rect" id="node5" href="$group__ACE__DISPATCHER__DEBUG.html" title="API of the debug module used inside the dispatcher implementation. " alt="" coords="331,173,463,199"/>
+<area shape="rect" id="node6" href="$group__ACE__DISPATCHER__DEFERRED.html" title="Deferred Work Manager used internally in the dispatcher implementation. " alt="" coords="314,223,479,250"/>
+</map>

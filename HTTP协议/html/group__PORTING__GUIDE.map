@@ -1,0 +1,8 @@
+<map id="DPK Porting Guides" name="DPK Porting Guides">
+<area shape="rect" id="node1" href="$group__LOG__PORTING__GUIDE.html" title="LOG Porting Guide" alt="" coords="360,5,492,32"/>
+<area shape="rect" id="node2" href="$group__WIFI__PORTING__GUIDE.html" title="Wi&#45;Fi" alt="" coords="399,56,453,83"/>
+<area shape="rect" id="node3" href="$group__DHAV2__PORTING__GUIDE.html" title="DHAv2" alt="" coords="393,107,459,133"/>
+<area shape="rect" id="node4" href="$group__ACS__CORE__DOCS.html" title="ACS core documentation. " alt="" coords="5,107,123,133"/>
+<area shape="rect" id="node6" href="$group__KV__STORAGE__PORTING__GUIDE.html" title="KV Storage" alt="" coords="381,157,471,184"/>
+<area shape="rect" id="node7" href="$group__DEVICE__INFO__PORTING__GUIDE.html" title="Device Info Porting\l Guide" alt="" coords="359,209,493,250"/>
+</map>

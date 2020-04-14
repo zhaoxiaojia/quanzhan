@@ -1,0 +1,4 @@
+<map id="module_multi_instance_msg_t" name="module_multi_instance_msg_t">
+<area shape="rect" id="node2" href="$structmod__instance__state.html" title="{mod_instance_state\n|+ instance_id\l+ timer\l+ period_ms\l+ msg_token\l+ idx\l+ is_init\l|}" alt="" coords="45,145,183,296"/>
+<area shape="rect" id="node3" href="$structaceDispatcher__dispatchHandle__s.html" title="Dispatch handle for the module to use. " alt="" coords="5,5,223,83"/>
+</map>

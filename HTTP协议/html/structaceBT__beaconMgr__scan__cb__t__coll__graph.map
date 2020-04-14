@@ -1,0 +1,3 @@
+<map id="aceBT_beaconMgr_scan_cb_t" name="aceBT_beaconMgr_scan_cb_t">
+<area shape="rect" id="node2" href="$structaceBT__batchScanParams__t.html" title="{aceBT_batchScanParams_t\n|+ scanMode\l+ scanInterval\l+ scanWindow\l+ fullScanClientIf\l+ truncatedScanClientIf\l|}" alt="" coords="12,5,197,141"/>
+</map>

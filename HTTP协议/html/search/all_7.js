@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['gatt_20client_20apis',['GATT Client APIs',['../group__ACE__BLE__API__GATT__CLIENT.html',1,'']]],
+  ['gatt_20server_20apis',['GATT Server APIs',['../group__ACE__BLE__API__GATT__SERVER.html',1,'']]],
+  ['gatt_20client_20callbacks',['GATT Client callbacks',['../group__ACE__BLE__CB__GATT__CLIENT.html',1,'']]],
+  ['gatt_20server_20callbacks',['GATT Server callbacks',['../group__ACE__BLE__CB__GATT__SERVER.html',1,'']]],
+  ['g',['g',['../structaceLedHal__rgb888.html#a6cb403f9ad81679a8453114681bc52b0',1,'aceLedHal_rgb888']]],
+  ['g_5facecli_5fislockedfunc',['g_aceCli_isLockedFunc',['../group__ACE__CLI__DEFINE.html#ga6951ff0fc41f4dc2a14c559f8de2d205',1,'g_aceCli_isLockedFunc():&#160;aceCli.c'],['../group__ACE__CLI__DEFINE.html#ga6951ff0fc41f4dc2a14c559f8de2d205',1,'g_aceCli_isLockedFunc():&#160;aceCli.c']]],
+  ['g_5facecli_5fprintoutputfunc',['g_aceCli_printOutputFunc',['../group__ACE__CLI__DEFINE.html#gabf299b935aa0bac98ffc51f607bb5efb',1,'g_aceCli_printOutputFunc():&#160;aceCli.c'],['../group__ACE__CLI__DEFINE.html#gabf299b935aa0bac98ffc51f607bb5efb',1,'g_aceCli_printOutputFunc():&#160;aceCli.c']]],
+  ['gadget_5feir',['gadget_eir',['../structaceBT__eirManfInfo__t.html#a6cc4d13d8918596af82b6dec075a21cd',1,'aceBT_eirManfInfo_t::gadget_eir()'],['../structacebt__device__found__data__t.html#afe71c0a2717ab8fbdc2174e715c6d866',1,'acebt_device_found_data_t::gadget_eir()'],['../structeir__block__t.html#a89b779254deca3488a7eea7324b72a72',1,'eir_block_t::gadget_eir()']]],
+  ['gateway',['gateway',['../structaceWifiMgr__IpConfiguration__t.html#ab7d49ca8ee730eec8b0c084f2d885fac',1,'aceWifiMgr_IpConfiguration_t::gateway()'],['../structaceWifiHal__ipConfiguration__t.html#a3e682f8e3bf6640f3615fb4c923d2daa',1,'aceWifiHal_ipConfiguration_t::gateway()']]],
+  ['gatt_5finterface_5ftype',['gatt_interface_type',['../structaceBle__gattUuidGattIdMap__t.html#a0e3bd76fac319703b30e6fdad20648b3',1,'aceBle_gattUuidGattIdMap_t']]],
+  ['gatt_5fservice',['gatt_service',['../structaceBT__bleGattSvc__t.html#a6653e018c7cb81f61f63df509020d965',1,'aceBT_bleGattSvc_t']]],
+  ['gatt_5fservices',['gatt_services',['../structaceBT__bleGattSvcList__t.html#a6a69793504e27bab3976555e19b3e79e',1,'aceBT_bleGattSvcList_t']]],
+  ['gatt_5fsvc_5finstance',['gatt_svc_instance',['../structaceBT__bleGattSvc__t.html#a46bfdec22efc6a3558df83f756d015fe',1,'aceBT_bleGattSvc_t']]],
+  ['gattdescriptor',['gattDescriptor',['../structaceBT__bleGattCharacteristicsValue__t.html#a5631b5182a4aa2460c1fcbbc814e9150',1,'aceBT_bleGattCharacteristicsValue_t']]],
+  ['gattid',['gattId',['../structaceBle__gattUuidGattIdMap__t.html#a1d0f17e5bbe0b0f83402d6d815ec184f',1,'aceBle_gattUuidGattIdMap_t']]],
+  ['gattrecord',['gattRecord',['../structaceBT__bleGattDescriptor__t.html#ae9ea56d82e1491df45891bbba26b85a2',1,'aceBT_bleGattDescriptor_t::gattRecord()'],['../structaceBT__bleGattCharacteristicsValue__t.html#a23c0e8e1b3ed44b809dc9a011a64941f',1,'aceBT_bleGattCharacteristicsValue_t::gattRecord()']]],
+  ['gattservice',['gattService',['../structacebt__gatt__svc__list__t.html#a054e699112bf758ddc619e4a3f84ab7d',1,'acebt_gatt_svc_list_t']]],
+  ['gcm_5fcipher_5fctx',['gcm_cipher_ctx',['../structtaos__cipher__ctx.html#afeae62402511fb21b09388d21008c7b6',1,'taos_cipher_ctx']]],
+  ['get',['get',['../structaceIpc__propertyData.html#a8faeb2d2a0f624496e40628cbfbe1072',1,'aceIpc_propertyData']]],
+  ['getconfig',['getConfig',['../structFfsUserContext__s.html#a79f24f6cbdbb0683316b116a7d458d09',1,'FfsUserContext_s']]],
+  ['globaleventbitmask',['globalEventBitmask',['../structevent__mask__t.html#a711890495d6e6aea281dde10cf6e0506',1,'event_mask_t']]],
+  ['group_5fid',['group_id',['../structaceEventMgr__eventParams__s.html#a2cb6043b8913f970e209fa35abbe46f6',1,'aceEventMgr_eventParams_s::group_id()'],['../structaceEventMgr__subscriber__s.html#a6d1d731237fb05af1f6bdb64351bb193',1,'aceEventMgr_subscriber_s::group_id()'],['../structaceEventmgrSkeleton__payload__s.html#a4cb5494b9633ece75f3a9b4f3d90eafe',1,'aceEventmgrSkeleton_payload_s::group_id()'],['../structbroker__msg__s.html#a0ccf6c6645c4398404119ab14aab193d',1,'broker_msg_s::group_id()']]],
+  ['gw',['gw',['../structaceWifiDiags__target__t.html#a7b25f2041d126bd80b2b9714da34e28c',1,'aceWifiDiags_target_t']]],
+  ['gpio',['GPIO',['../group__HAL__DIAG__GPIO.html',1,'']]]
+];

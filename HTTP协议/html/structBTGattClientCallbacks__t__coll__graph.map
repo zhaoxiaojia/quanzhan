@@ -1,0 +1,8 @@
+<map id="BTGattClientCallbacks_t" name="BTGattClientCallbacks_t">
+<area shape="rect" id="node2" href="$structBTGattNotifyParams__t.html" title="{BTGattNotifyParams_t\n|+ ucValue\l+ usHandle\l+ xLen\l+ bIsNotify\l|}" alt="" coords="181,219,336,340"/>
+<area shape="rect" id="node3" href="$structBTBdaddr__t.html" title="BT/BLE address. " alt="" coords="39,35,135,112"/>
+<area shape="rect" id="node4" href="$structBTGattDbElement__t.html" title="{BTGattDbElement_t\n|+ usId\l+ xType\l+ usAttributeHandle\l+ usStartHandle\l+ usEndHandle\l+ ucProperties\l|}" alt="" coords="535,204,675,355"/>
+<area shape="rect" id="node5" href="$structBTUuid__t.html" title="UUID. " alt="" coords="412,5,489,141"/>
+<area shape="rect" id="node6" href="$structBTGattReadParams__t.html" title="{BTGattReadParams_t\n|+ usHandle\l+ usValueType\l+ ucStatus\l|}" alt="" coords="699,226,850,333"/>
+<area shape="rect" id="node7" href="$structBTGattUnformattedValue__t.html" title="{BTGattUnformattedValue_t\n|+ ucValue\l+ usLen\l|}" alt="" coords="685,27,865,119"/>
+</map>

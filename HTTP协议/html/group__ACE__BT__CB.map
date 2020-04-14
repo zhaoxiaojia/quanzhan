@@ -1,0 +1,8 @@
+<map id="Bluetooth callbacks" name="Bluetooth callbacks">
+<area shape="rect" id="node1" href="$group__ACE__BLE__CB.html" title="BLE callbacks" alt="" coords="458,5,565,32"/>
+<area shape="rect" id="node2" href="$group__ACEBT.html" title="ACE Bluetooth Middleware. " alt="" coords="5,107,184,133"/>
+<area shape="rect" id="node3" href="$group__ACE__BT__SESSION__API__CB.html" title="Bluetooth session callbacks" alt="" coords="419,56,604,83"/>
+<area shape="rect" id="node4" href="$group__ACE__BT__CB__PROFILES.html" title="Bluetooth Profile callbacks" alt="" coords="423,107,600,133"/>
+<area shape="rect" id="node5" href="$group__ACE__BT__CB__COMMON.html" title="The common Bluetooth callback typedefs used by clients to register for common Bluetooth events..." alt="" coords="416,157,607,184"/>
+<area shape="rect" id="node6" href="$group__ACE__BT__CB__CLASSIC.html" title="Bluetooth Classic callbacks" alt="" coords="419,208,603,235"/>
+</map>

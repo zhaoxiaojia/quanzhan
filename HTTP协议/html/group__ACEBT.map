@@ -1,0 +1,6 @@
+<map id="ACE Bluetooth Middleware" name="ACE Bluetooth Middleware">
+<area shape="rect" id="node1" href="$group__ACE__BT__DS.html" title="Data structure and enum definitions for Bluetooth clients to use in order to invoke APIs and handle c..." alt="" coords="368,5,513,47"/>
+<area shape="rect" id="node2" href="$group__MW.html" title="ACE Portable Middleware. " alt="" coords="5,71,93,98"/>
+<area shape="rect" id="node3" href="$group__ACE__BT__API.html" title="ACE Bluetooth APIs provides the interfaces to use Bluetooth functionality on the current platform..." alt="" coords="369,71,512,98"/>
+<area shape="rect" id="node5" href="$group__ACE__BT__CB.html" title="ACE Bluetooth callbacks define the callback events for various Bluetooth modules. Note that the threa..." alt="" coords="373,122,509,149"/>
+</map>

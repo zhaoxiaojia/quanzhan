@@ -1,0 +1,6 @@
+<map id="msg" name="msg">
+<area shape="rect" id="node2" href="$structdispatcherDemo__struct__y__t.html" title="{dispatcherDemo_struct_y_t\n|+ data\l+ cb\l|}" alt="" coords="5,167,188,259"/>
+<area shape="rect" id="node3" href="$structdispatcherDemo__sync__header__t.html" title="This is a header used for a self describing union of all the inter module communication types..." alt="" coords="213,160,365,267"/>
+<area shape="rect" id="node4" href="$structdispatcherDemo__sync__nonblocking__t.html" title="This defines the struct that can be used for a non blocking call between threads. ..." alt="" coords="125,5,277,97"/>
+<area shape="rect" id="node5" href="$structdispatcherDemo__sync__blocking__t.html" title="This defines the struct that can be used for a blocking call between threads. " alt="" coords="301,5,453,97"/>
+</map>

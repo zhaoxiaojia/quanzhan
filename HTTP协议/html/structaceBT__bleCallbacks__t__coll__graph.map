@@ -1,0 +1,5 @@
+<map id="aceBT_bleCallbacks_t" name="aceBT_bleCallbacks_t">
+<area shape="rect" id="node2" href="$structaceBT__commonCallbacks__t.html" title="Common Bluetooth callback struct. " alt="" coords="5,145,192,237"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="39,5,158,83"/>
+<area shape="rect" id="node4" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="217,153,407,230"/>
+</map>

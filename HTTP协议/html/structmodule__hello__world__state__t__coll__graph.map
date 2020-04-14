@@ -1,0 +1,6 @@
+<map id="module_hello_world_state_t" name="module_hello_world_state_t">
+<area shape="rect" id="node2" href="$structaceDispatcher__dispatchHandle__s.html" title="Dispatch handle for the module to use. " alt="" coords="17,189,235,267"/>
+<area shape="rect" id="node4" href="$structaceDispatcher__module__s.html" title="Dispatch handler interface definition structure. " alt="" coords="5,344,175,465"/>
+<area shape="rect" id="node3" href="$unionaceDispatcher__config__t.html" title="This type defines the dispatcher handle. " alt="" coords="47,5,205,112"/>
+<area shape="rect" id="node5" href="$unionaceDispatcher__work__t.html" title="This type defines the work object. " alt="" coords="259,175,411,281"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="ACE Bluetooth APIs" name="ACE Bluetooth APIs">
+<area shape="rect" id="node1" href="$group__ACE__BT__SESSION__API.html" title="Session Manager APIs\l for Bluetooth clients" alt="" coords="461,5,617,47"/>
+<area shape="rect" id="node2" href="$group__ACE__BT__API__COMMON.html" title="Common/Device&#45;management APIs" alt="" coords="423,71,655,98"/>
+<area shape="rect" id="node5" href="$group__ACE__BT__PROFILE__API.html" title="APIs for Classic profile functionalities. " alt="" coords="466,122,611,149"/>
+<area shape="rect" id="node6" href="$group__ACE__BT__API__CLASSIC.html" title="Classic Bluetooth APIs" alt="" coords="459,173,618,199"/>
+<area shape="rect" id="node7" href="$group__ACE__BT__SOCKET__API.html" title="Socket APIs" alt="" coords="491,223,587,250"/>
+<area shape="rect" id="node8" href="$group__ACE__BLE__API.html" title="APIs for invoking BLE functaionalities. " alt="" coords="499,274,579,301"/>
+<area shape="rect" id="node4" href="$group__ACEBT.html" title="ACE Bluetooth Middleware. " alt="" coords="5,147,184,174"/>
+</map>

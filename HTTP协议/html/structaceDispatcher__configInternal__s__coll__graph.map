@@ -1,0 +1,5 @@
+<map id="aceDispatcher_configInternal_s" name="aceDispatcher_configInternal_s">
+<area shape="rect" id="node2" href="$structaceDispatcher__deferredWorkMgr__s.html" title="Internal state of the deferred work manager. " alt="" coords="5,160,196,311"/>
+<area shape="rect" id="node3" href="$structdispatcher__list__safe__head.html" title="Definition of the generic list object. " alt="" coords="129,5,302,83"/>
+<area shape="rect" id="node4" href="$structaceDispatcher__executionQueue__s.html" title="Internal state of the execution queue. " alt="" coords="221,189,442,281"/>
+</map>

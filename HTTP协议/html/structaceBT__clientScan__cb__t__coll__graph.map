@@ -1,0 +1,5 @@
+<map id="aceBT_clientScan_cb_t" name="aceBT_clientScan_cb_t">
+<area shape="rect" id="node2" href="$structBeaconScanFilterList__t.html" title="{BeaconScanFilterList_t\n|+ numberOfFilters\l|}" alt="" coords="5,160,163,237"/>
+<area shape="rect" id="node3" href="$structBeaconScanFilter__t.html" title="{BeaconScanFilter_t\n|+ filterType\l+ minimumMatch\l|}" alt="" coords="16,5,152,97"/>
+<area shape="rect" id="node4" href="$structaceBT__ScanInstance.html" title="{aceBT_ScanInstance\n|+ instanceHandle\l|}" alt="" coords="187,160,333,237"/>
+</map>

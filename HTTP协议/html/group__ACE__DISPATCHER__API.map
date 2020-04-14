@@ -1,0 +1,6 @@
+<map id="Public API" name="Public API">
+<area shape="rect" id="node2" href="$group__ACE__DISPATCHER__CONFIGURATION__API.html" title="API for a system integrator to provision dispatchers and register modules within them. " alt="" coords="303,5,428,32"/>
+<area shape="rect" id="node3" href="$group__ACE__DISPATCHER__WORK__BUILDER__API.html" title="API for a user to construct work to be dispatched. " alt="" coords="317,56,414,83"/>
+<area shape="rect" id="node5" href="$group__ACE__DISPATCHER__DISPATCH__API.html" title="API for a user to dispatch events using the ACE Dispatcher library. " alt="" coords="315,107,415,133"/>
+<area shape="rect" id="node4" href="$group__ACE__DISPATCHER.html" title="ACE Dispatcher. " alt="" coords="5,56,123,83"/>
+</map>

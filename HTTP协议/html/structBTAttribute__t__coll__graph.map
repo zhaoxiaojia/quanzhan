@@ -1,0 +1,7 @@
+<map id="BTAttribute_t" name="BTAttribute_t">
+<area shape="rect" id="node5" href="$structBTService.html" title="Structure describing a service. Note, handles are allocated separately so the attribute array can be ..." alt="" coords="317,513,475,635"/>
+<area shape="rect" id="node2" href="$structBTCharacteristic__t.html" title="Structure describing a characteristic. " alt="" coords="5,204,136,296"/>
+<area shape="rect" id="node3" href="$structBTUuid__t.html" title="UUID. " alt="" coords="252,5,329,141"/>
+<area shape="rect" id="node4" href="$structBTIncludedService__t.html" title="Structure describing an included service. " alt="" coords="321,697,463,775"/>
+<area shape="rect" id="node6" href="$structBTCharacteristicDescr__t.html" title="Structure describing a characteristic descriptor. " alt="" coords="310,211,477,289"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="aceDispatcher_workInternal_t" name="aceDispatcher_workInternal_t">
+<area shape="rect" id="node2" href="$structdispatcher__list__node.html" title="Definition of the node in the generic list. " alt="" coords="5,189,147,267"/>
+<area shape="rect" id="node3" href="$structmsg.html" title="{msg\n|+ param\l+ param_resp\l+ ctx\l|}" alt="" coords="171,175,274,281"/>
+<area shape="rect" id="node4" href="$structdispatcherDemo__struct__y__t.html" title="{dispatcherDemo_struct_y_t\n|+ data\l+ cb\l|}" alt="" coords="35,13,218,105"/>
+<area shape="rect" id="node5" href="$structdispatcherDemo__sync__header__t.html" title="This is a header used for a self describing union of all the inter module communication types..." alt="" coords="243,5,395,112"/>
+</map>

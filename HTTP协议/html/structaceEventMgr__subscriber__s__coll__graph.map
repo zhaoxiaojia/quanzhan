@@ -1,0 +1,4 @@
+<map id="aceEventMgr_subscriber_s" name="aceEventMgr_subscriber_s">
+<area shape="rect" id="node2" href="$structaceEventMgr__subscribeParams__s.html" title="Params that are passed for the registering subscribers. " alt="" coords="5,145,227,237"/>
+<area shape="rect" id="node3" href="$structaceEventMgr__callbackParams__s.html" title="Callback params. " alt="" coords="9,5,223,83"/>
+</map>

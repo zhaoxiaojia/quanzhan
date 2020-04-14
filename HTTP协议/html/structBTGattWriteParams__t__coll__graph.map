@@ -1,0 +1,5 @@
+<map id="BTGattWriteParams_t" name="BTGattWriteParams_t">
+<area shape="rect" id="node2" href="$structBTGattInstanceId__t.html" title="GATT service instance ID. " alt="" coords="13,204,149,281"/>
+<area shape="rect" id="node4" href="$structBTGattSrvcId__t.html" title="GATT Service ID. " alt="" coords="149,344,263,421"/>
+<area shape="rect" id="node3" href="$structBTUuid__t.html" title="UUID. " alt="" coords="42,5,119,141"/>
+</map>

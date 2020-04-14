@@ -1,0 +1,5 @@
+<map id="aceBT_bleGattDescriptor_t" name="aceBT_bleGattDescriptor_t">
+<area shape="rect" id="node2" href="$structaceBT__bleGattRecord__t.html" title="BLE GATT record. " alt="" coords="5,160,168,267"/>
+<area shape="rect" id="node3" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="35,5,138,97"/>
+<area shape="rect" id="node4" href="$structaceBT__bleGattBlobValue__t.html" title="BLE Blob value. " alt="" coords="192,160,371,267"/>
+</map>

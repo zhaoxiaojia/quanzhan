@@ -1,0 +1,4 @@
+<map id="acePowerHal_cb_msg_t" name="acePowerHal_cb_msg_t">
+<area shape="rect" id="node2" href="$unionacePowerHal__cb__msg__t_1_1cbData.html" title="{acePowerHal_cb_msg\l_t::cbData\n|+ err_state\l|}" alt="" coords="11,160,164,252"/>
+<area shape="rect" id="node3" href="$structacePowerHal__cb__data__t.html" title="data structure type inside callback parameter. Mainly used to indicate what is pre&#45; and post&#45; state p..." alt="" coords="5,5,169,97"/>
+</map>

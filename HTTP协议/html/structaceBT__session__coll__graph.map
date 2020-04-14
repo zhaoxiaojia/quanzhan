@@ -1,0 +1,6 @@
+<map id="aceBT_session" name="aceBT_session">
+<area shape="rect" id="node2" href="$structaceBT__sessionCallbacks__t.html" title="Bluetooth session callback struct. " alt="" coords="93,616,274,693"/>
+<area shape="rect" id="node3" href="$structaceBT__event__handler.html" title="{aceBT_event_handler\n|+ min\l+ max\l|}" alt="" coords="7,292,155,384"/>
+<area shape="rect" id="node4" href="$structaceAIPC__parameter__t.html" title="data member in task block received by server " alt="" coords="5,5,156,229"/>
+<area shape="rect" id="node5" href="$structaceBT__aipcHandles__t.html" title="{aceBT_aipcHandles_t\n|+ callback_server_id\l+ server_id\l|}" alt="" coords="179,292,329,384"/>
+</map>

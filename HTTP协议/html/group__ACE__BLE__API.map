@@ -1,0 +1,7 @@
+<map id="BLE APIs" name="BLE APIs">
+<area shape="rect" id="node1" href="$group__ACE__BLE__API__BEACON.html" title="BLE Beacon Manager APIs" alt="" coords="324,5,507,32"/>
+<area shape="rect" id="node2" href="$group__ACE__BLE__API__GATT__SERVER.html" title="GATT Server APIs" alt="" coords="349,56,481,83"/>
+<area shape="rect" id="node3" href="$group__ACE__BT__API.html" title="ACE Bluetooth APIs provides the interfaces to use Bluetooth functionality on the current platform..." alt="" coords="5,81,148,108"/>
+<area shape="rect" id="node4" href="$group__ACE__BLE__API__COMMON.html" title="Common APIs" alt="" coords="361,107,469,133"/>
+<area shape="rect" id="node5" href="$group__ACE__BLE__API__GATT__CLIENT.html" title="GATT Client APIs" alt="" coords="351,157,479,184"/>
+</map>

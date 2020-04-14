@@ -1,0 +1,4 @@
+<map id="aceWifiSvc_networkStateInfo" name="aceWifiSvc_networkStateInfo">
+<area shape="rect" id="node2" href="$structaceWifiMgr__wifiInfo__t.html" title="{aceWifiMgr_wifiInfo_t\n|+ bssid\l+ ssid\l+ ssidLength\l+ authMode\l+ frequency\l+ reason\l|}" alt="" coords="29,160,177,311"/>
+<area shape="rect" id="node3" href="$structaceWifi__ipAddress__t.html" title="{aceWifi_ipAddress_t\n|+ type\l+ ipAddress\l|}" alt="" coords="31,5,174,97"/>
+</map>

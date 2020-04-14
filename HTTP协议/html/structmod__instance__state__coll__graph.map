@@ -1,0 +1,5 @@
+<map id="mod_instance_state" name="mod_instance_state">
+<area shape="rect" id="node2" href="$structaceDispatcher__dispatchHandle__s.html" title="Dispatch handle for the module to use. " alt="" coords="62,175,279,252"/>
+<area shape="rect" id="node4" href="$structaceDispatcher__module__s.html" title="Dispatch handler interface definition structure. " alt="" coords="169,329,338,451"/>
+<area shape="rect" id="node3" href="$unionaceDispatcher__config__t.html" title="This type defines the dispatcher handle. " alt="" coords="91,5,250,112"/>
+</map>

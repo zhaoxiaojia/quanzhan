@@ -1,0 +1,7 @@
+<map id="BLE callbacks" name="BLE callbacks">
+<area shape="rect" id="node1" href="$group__ACE__BLE__CB__GATT__SERVER.html" title="GATT Server callbacks" alt="" coords="345,5,503,32"/>
+<area shape="rect" id="node3" href="$group__ACE__BLE__CB__GATT__CLIENT.html" title="GATT Client callbacks" alt="" coords="347,56,501,83"/>
+<area shape="rect" id="node4" href="$group__ACE__BLE__CB__BEACON.html" title="BLE Beacon callbacks" alt="" coords="347,107,501,133"/>
+<area shape="rect" id="node5" href="$group__ACE__BLE__CB__COMMON.html" title="BLE common callbacks" alt="" coords="344,157,504,184"/>
+<area shape="rect" id="node6" href="$group__ACE__BT__CB.html" title="ACE Bluetooth callbacks define the callback events for various Bluetooth modules. Note that the threa..." alt="" coords="5,81,141,108"/>
+</map>

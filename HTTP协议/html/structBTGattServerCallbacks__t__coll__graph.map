@@ -1,0 +1,6 @@
+<map id="BTGattServerCallbacks_t" name="BTGattServerCallbacks_t">
+<area shape="rect" id="node2" href="$structBTGattSrvcId__t.html" title="GATT Service ID. " alt="" coords="108,373,223,451"/>
+<area shape="rect" id="node3" href="$structBTGattInstanceId__t.html" title="GATT service instance ID. " alt="" coords="103,204,239,281"/>
+<area shape="rect" id="node4" href="$structBTUuid__t.html" title="UUID. " alt="" coords="5,5,83,141"/>
+<area shape="rect" id="node5" href="$structBTBdaddr__t.html" title="BT/BLE address. " alt="" coords="260,373,356,451"/>
+</map>

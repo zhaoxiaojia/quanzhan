@@ -1,0 +1,6 @@
+<map id="ble_characteristic_t" name="ble_characteristic_t">
+<area shape="rect" id="node2" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="6,336,109,428"/>
+<area shape="rect" id="node3" href="$structble__whisperjoin__notify__t.html" title="{ble_whisperjoin_notify_t\n|+ notify_en\l|}" alt="" coords="133,343,294,421"/>
+<area shape="rect" id="node4" href="$structaceBT__bleGattCharacteristicsValue__t.html" title="{aceBT_bleGattCharacteristics\lValue_t\n|+ uint8Val\l+ uint16Val\l+ uint32Val\l+ int8Val\l+ int16Val\l+ int32Val\l+ @13\l+ format\l+ auth_retry\l+ read_auth_retry\l+ write_type\l+ descList\l+ multiDescCount\l|}" alt="" coords="5,5,203,273"/>
+<area shape="rect" id="node5" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="227,101,418,178"/>
+</map>

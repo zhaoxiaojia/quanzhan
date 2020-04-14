@@ -1,0 +1,11 @@
+<map id="whisperjoin_big_context" name="whisperjoin_big_context">
+<area shape="rect" id="node2" href="$structWhisperJoinDhaContext__s.html" title="DHA context. " alt="" coords="5,329,184,406"/>
+<area shape="rect" id="node3" href="$structWhisperJoinCloudContext__s.html" title="{WhisperJoinCloudContext_s\n|+ mbedtlsPkContext\l|}" alt="" coords="209,329,397,406"/>
+<area shape="rect" id="node4" href="$structWhisperJoinWifiContext__s.html" title="WiFi context. " alt="" coords="421,307,598,428"/>
+<area shape="rect" id="node5" href="$structaceWifiMgr__scanResultList__t.html" title="{aceWifiMgr_scanResultList_t\n|+ length\l|}" alt="" coords="413,42,606,119"/>
+<area shape="rect" id="node6" href="$structWhisperJoinSecureChannelContext__s.html" title="Secure channel context. " alt="" coords="623,321,828,413"/>
+<area shape="rect" id="node7" href="$structtaos__secure__session__ctx.html" title="{taos_secure_session_ctx\n|+ session_id\l+ heap\l|}" alt="" coords="640,35,811,127"/>
+<area shape="rect" id="node8" href="$structWhisperJoinProvisionableContext__s.html" title="Provisionable context. " alt="" coords="852,219,1073,516"/>
+<area shape="rect" id="node9" href="$structWhisperJoinJpakeContext__s.html" title="{WhisperJoinJpakeContext_s\n|+ participantIdStream\l+ role\l+ ecjpakeContext\l+ entropyContext\l+ outputPayloadBuf\l+ currentRound\l|}" alt="" coords="868,5,1057,156"/>
+<area shape="rect" id="node10" href="$structWhisperJoinRngContext__s.html" title="RNG context. " alt="" coords="1097,329,1276,406"/>
+</map>

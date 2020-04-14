@@ -1,0 +1,8 @@
+<map id="hal_classic_adapter_cb_t" name="hal_classic_adapter_cb_t">
+<area shape="rect" id="node2" href="$structBTClassicInterface__t.html" title="{BTClassicInterface_t\n|+ pxInit\l+ pxCleanup\l+ pxGetClassicDeviceProperty\l+ pxSetClassicDeviceProperty\l+ pxGetAllRemoteClassicDevice\lProperties\l+ pxGetRemoteClassicDevice\lProperty\l+ pxSetRemoteClassicDevice\lProperty\l+ pxGetRemoteServiceRecord\l+ pxGetRemoteService\l+ pxStartDiscovery\l+ pxStopDiscovery\l+ ppvGetProfileInterface\l|}" alt="" coords="5,175,220,457"/>
+<area shape="rect" id="node3" href="$structaceBT__property__t.html" title="Bluetooth Adapter Property. " alt="" coords="245,263,370,369"/>
+<area shape="rect" id="node4" href="$structhal__adapter__common__info__cb__t.html" title="{hal_adapter_common\l_info_cb_t\n|+ cod\l+ uuid_count\l|}" alt="" coords="406,263,553,369"/>
+<area shape="rect" id="node5" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="245,13,372,90"/>
+<area shape="rect" id="node6" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="428,5,531,97"/>
+<area shape="rect" id="node7" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="555,13,673,90"/>
+</map>

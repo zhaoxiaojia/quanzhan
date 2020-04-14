@@ -1,0 +1,10 @@
+<map id="ACS Core Docs" name="ACS Core Docs">
+<area shape="rect" id="node1" href="$group__legal__notice.html" title="Legal Notice" alt="" coords="206,5,301,32"/>
+<area shape="rect" id="node2" href="$group__intro__acs.html" title="Introduction to ACS" alt="" coords="185,56,322,83"/>
+<area shape="rect" id="node4" href="$group__USER__GUIDE.html" title="Middleware User Guides" alt="" coords="171,107,336,133"/>
+<area shape="rect" id="node5" href="$group__QUICK__START__GUIDE.html" title="Quick Start Guides" alt="" coords="187,157,320,184"/>
+<area shape="rect" id="node6" href="$group__TESTING__GUIDE.html" title="Testing Guides" alt="" coords="198,208,309,235"/>
+<area shape="rect" id="node7" href="$group__PORTING__GUIDE.html" title="DPK Porting Guides" alt="" coords="183,259,323,285"/>
+<area shape="rect" id="node8" href="$group__about__acs.html" title="About" alt="" coords="225,309,281,336"/>
+<area shape="rect" id="node9" href="$group__release__notes.html" title="Release Notes ver.\l 1.3.0&#45;preview" alt="" coords="186,361,321,402"/>
+</map>

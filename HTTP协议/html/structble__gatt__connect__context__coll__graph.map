@@ -1,0 +1,7 @@
+<map id="ble_gatt_connect_context" name="ble_gatt_connect_context">
+<area shape="rect" id="node2" href="$structaceBT__session.html" title="{aceBT_session\n|+ session_type\l+ p_session_data\l+ p_clientHdl\l|}" alt="" coords="108,160,233,267"/>
+<area shape="rect" id="node3" href="$structaceBT__sessionCallbacks__t.html" title="Bluetooth session callback struct. " alt="" coords="5,329,187,407"/>
+<area shape="rect" id="node4" href="$structaceBT__event__handler.html" title="{aceBT_event_handler\n|+ min\l+ max\l|}" alt="" coords="10,5,158,97"/>
+<area shape="rect" id="node5" href="$structaceBT__aipcHandles__t.html" title="{aceBT_aipcHandles_t\n|+ callback_server_id\l+ server_id\l|}" alt="" coords="182,5,333,97"/>
+<area shape="rect" id="node6" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="258,175,449,252"/>
+</map>

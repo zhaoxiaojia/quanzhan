@@ -1,0 +1,5 @@
+<map id="BTCallbacks_t" name="BTCallbacks_t">
+<area shape="rect" id="node2" href="$structBTActivityEnergyInfo.html" title="Energy info. " alt="" coords="5,5,152,156"/>
+<area shape="rect" id="node3" href="$structBTProperty__t.html" title="Bluetooth Adapter Property data structure. " alt="" coords="176,27,275,134"/>
+<area shape="rect" id="node4" href="$structBTBdaddr__t.html" title="BT/BLE address. " alt="" coords="356,42,452,119"/>
+</map>

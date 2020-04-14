@@ -1,0 +1,9 @@
+<map id="API Definitions" name="API Definitions">
+<area shape="rect" id="node2" href="$group__HAL__DIAG__ADC.html" title="Diagnostic HAL APIs for ADC. " alt="" coords="279,5,330,32"/>
+<area shape="rect" id="node3" href="$group__HAL__DIAG__STORAGE.html" title="Diagnostic HAL APIs for storage accesses. " alt="" coords="271,56,338,83"/>
+<area shape="rect" id="node4" href="$group__HAL__DIAG__GPIO.html" title="Diagnostic HAL APIs for GPIO. " alt="" coords="277,107,332,133"/>
+<area shape="rect" id="node5" href="$group__HAL__DIAG__DEVICE__INFO.html" title="Diagnostic HAL APIs for accessing device info. " alt="" coords="260,157,349,184"/>
+<area shape="rect" id="node7" href="$group__HAL__DIAG__I2C.html" title="Diagnostic HAL APIs for I2C components. " alt="" coords="283,208,326,235"/>
+<area shape="rect" id="node8" href="$group__HAL__DIAG__RTC.html" title="Diagnostic HAL APIs for RTC. " alt="" coords="279,259,330,285"/>
+<area shape="rect" id="node6" href="$group__HAL__DIAG.html" title="Hardware Abstraction Layer for Diagnostic Libraries. " alt="" coords="5,132,53,159"/>
+</map>

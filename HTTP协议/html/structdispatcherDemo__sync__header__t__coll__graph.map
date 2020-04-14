@@ -1,0 +1,4 @@
+<map id="dispatcherDemo_sync_header_t" name="dispatcherDemo_sync_header_t">
+<area shape="rect" id="node2" href="$structdispatcherDemo__sync__nonblocking__t.html" title="This defines the struct that can be used for a non blocking call between threads. ..." alt="" coords="5,5,157,97"/>
+<area shape="rect" id="node3" href="$structdispatcherDemo__sync__blocking__t.html" title="This defines the struct that can be used for a blocking call between threads. " alt="" coords="181,5,333,97"/>
+</map>

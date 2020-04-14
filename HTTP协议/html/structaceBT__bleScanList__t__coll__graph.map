@@ -1,0 +1,7 @@
+<map id="aceBT_bleScanList_t" name="aceBT_bleScanList_t">
+<area shape="rect" id="node2" href="$structaceBT__BeaconScanSettings__t.html" title="Scan Settings. " alt="" coords="5,145,205,369"/>
+<area shape="rect" id="node3" href="$structBTUuid__t.html" title="UUID. " alt="" coords="229,189,307,325"/>
+<area shape="rect" id="node4" href="$structaceBT__ScanInstance.html" title="{aceBT_ScanInstance\n|+ instanceHandle\l|}" alt="" coords="331,219,477,296"/>
+<area shape="rect" id="node5" href="$structBeaconScanFilterListParam__t.html" title="{BeaconScanFilterListParam_t\n|+ filt_index\l|}" alt="" coords="501,219,696,296"/>
+<area shape="rect" id="node6" href="$structBeaconScanFilterList__t.html" title="{BeaconScanFilterList_t\n|+ numberOfFilters\l|}" alt="" coords="520,5,677,83"/>
+</map>

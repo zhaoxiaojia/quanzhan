@@ -1,0 +1,6 @@
+<map id="aceBT_AdvertimentData_t" name="aceBT_AdvertimentData_t">
+<area shape="rect" id="node2" href="$structaceBT__ManuData__t.html" title="Manufacturer data. " alt="" coords="5,160,144,252"/>
+<area shape="rect" id="node3" href="$structaceBT__ServiceUuid__t.html" title="Service UUID. " alt="" coords="168,167,317,245"/>
+<area shape="rect" id="node4" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="191,5,294,97"/>
+<area shape="rect" id="node5" href="$structaceBT__ServiceData__t.html" title="Service data. " alt="" coords="342,160,493,252"/>
+</map>

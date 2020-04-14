@@ -1,0 +1,4 @@
+<map id="BeaconScanFilterListParam_t" name="BeaconScanFilterListParam_t">
+<area shape="rect" id="node2" href="$structBeaconScanFilterList__t.html" title="{BeaconScanFilterList_t\n|+ numberOfFilters\l|}" alt="" coords="24,160,181,237"/>
+<area shape="rect" id="node3" href="$structBeaconScanFilter__t.html" title="{BeaconScanFilter_t\n|+ filterType\l+ minimumMatch\l|}" alt="" coords="35,5,171,97"/>
+</map>

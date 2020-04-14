@@ -1,0 +1,9 @@
+<map id="beaconScanFilterValue_t" name="beaconScanFilterValue_t">
+<area shape="rect" id="node2" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="5,197,132,274"/>
+<area shape="rect" id="node3" href="$structScanFilterServiceDataUuid__t.html" title="{ScanFilterServiceDataUuid_t\n|+ len\l|}" alt="" coords="156,197,347,274"/>
+<area shape="rect" id="node4" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="303,5,405,97"/>
+<area shape="rect" id="node6" href="$structScanFilterServiceUUID__t.html" title="{ScanFilterServiceUUID_t\n|+ len\l|}" alt="" coords="371,197,542,274"/>
+<area shape="rect" id="node5" href="$structScanFilterManuFactData__t.html" title="{ScanFilterManuFactData_t\n|+ id\l+ len\l+ manufactData\l+ manufactDataMask\l|}" alt="" coords="566,175,745,296"/>
+<area shape="rect" id="node7" href="$structScanFilterServiceData__t.html" title="{ScanFilterServiceData_t\n|+ len\l+ serviceData\l+ serviceDataMask\l|}" alt="" coords="769,182,933,289"/>
+<area shape="rect" id="node8" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="957,197,1076,274"/>
+</map>

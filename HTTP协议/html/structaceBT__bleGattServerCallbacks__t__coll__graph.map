@@ -1,0 +1,5 @@
+<map id="aceBT_bleGattServerCallbacks_t" name="aceBT_bleGattServerCallbacks_t">
+<area shape="rect" id="node2" href="$structaceBT__bleGattInstance.html" title="{aceBT_bleGattInstance\n|+ instanceHandle\l|}" alt="" coords="5,5,164,83"/>
+<area shape="rect" id="node3" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="192,5,311,83"/>
+<area shape="rect" id="node4" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="369,5,560,83"/>
+</map>

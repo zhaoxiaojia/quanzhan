@@ -1,0 +1,5 @@
+<map id="whisperjoin_message" name="whisperjoin_message">
+<area shape="rect" id="node2" href="$structble__characteristic__t.html" title="BLE characteristic. " alt="" coords="65,160,203,281"/>
+<area shape="rect" id="node3" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="5,5,108,97"/>
+<area shape="rect" id="node4" href="$structble__whisperjoin__notify__t.html" title="{ble_whisperjoin_notify_t\n|+ notify_en\l|}" alt="" coords="132,13,293,90"/>
+</map>

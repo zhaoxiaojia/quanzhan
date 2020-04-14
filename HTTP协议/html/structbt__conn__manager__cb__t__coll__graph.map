@@ -1,0 +1,7 @@
+<map id="bt_conn_manager_cb_t" name="bt_conn_manager_cb_t">
+<area shape="rect" id="node2" href="$structbt__device__info__t.html" title="{bt_device_info_t\n|+ cod\l+ audio_state\l+ is_initiator\l+ is_acl_connected\l+ is_connected\l+ has_gadget_eir\l+ has_uuids\l+ device_type\l+ supported_profiles\l+ connected_profiles\l+ restricted_profiles\l+ uuid_count\l|}" alt="" coords="272,160,415,399"/>
+<area shape="rect" id="node3" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="5,13,132,90"/>
+<area shape="rect" id="node4" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="156,5,259,97"/>
+<area shape="rect" id="node5" href="$structaceBT__eirManfInfo__t.html" title="{aceBT_eirManfInfo_t\n|+ type\l+ @15\l|}" alt="" coords="283,5,425,97"/>
+<area shape="rect" id="node6" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="468,13,587,90"/>
+</map>

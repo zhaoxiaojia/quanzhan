@@ -1,0 +1,4 @@
+<map id="aceWifiDiags_stats_t" name="aceWifiDiags_stats_t">
+<area shape="rect" id="node2" href="$struct__aceWifiDiags__packetStats.html" title="{_aceWifiDiags_packetStats\n|+ rx_bytes\l+ tx_bytes\l+ rx_packets\l+ tx_packets\l|}" alt="" coords="5,5,189,127"/>
+<area shape="rect" id="node3" href="$structaceWifiDiags__testResult__t.html" title="{aceWifiDiags_testResult_t\n|+ status\l|}" alt="" coords="213,27,392,105"/>
+</map>

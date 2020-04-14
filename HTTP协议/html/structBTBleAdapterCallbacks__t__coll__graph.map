@@ -1,0 +1,6 @@
+<map id="BTBleAdapterCallbacks_t" name="BTBleAdapterCallbacks_t">
+<area shape="rect" id="node2" href="$structBTBleProperty__t.html" title="{BTBleProperty_t\n|+ xType\l+ xLen\l+ pvVal\l|}" alt="" coords="5,211,124,318"/>
+<area shape="rect" id="node3" href="$structBTGattTrackAdvInfo__t.html" title="Structure that contains all advertisements info. Used to compress parameters in BTTrackAdvEventCallba..." alt="" coords="464,145,639,384"/>
+<area shape="rect" id="node4" href="$structBTBdaddr__t.html" title="BT/BLE address. " alt="" coords="225,5,321,83"/>
+<area shape="rect" id="node5" href="$structBTUuid__t.html" title="UUID. " alt="" coords="663,197,741,333"/>
+</map>

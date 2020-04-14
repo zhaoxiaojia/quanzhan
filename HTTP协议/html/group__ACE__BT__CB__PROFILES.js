@@ -1,0 +1,65 @@
+var group__ACE__BT__CB__PROFILES =
+[
+    [ "aceBT_avrcCtrlCallbacks_t", "structaceBT__avrcCtrlCallbacks__t.html", [
+      [ "rc_key_cb", "structaceBT__avrcCtrlCallbacks__t.html#a1cf3571b980b0084b4bd77a5a3173492", null ],
+      [ "size", "structaceBT__avrcCtrlCallbacks__t.html#a683d020e274db73c19882e371fc1593e", null ]
+    ] ],
+    [ "aceBT_hfpCallbacks_t", "structaceBT__hfpCallbacks__t.html", [
+      [ "answer_call_cmd_cb", "structaceBT__hfpCallbacks__t.html#ac06cad0c73f9232fc7828797e4aa4bb1", null ],
+      [ "audio_state_cb", "structaceBT__hfpCallbacks__t.html#ac4f05a6e6e1888c9ca376d63515deb63", null ],
+      [ "biev_cb", "structaceBT__hfpCallbacks__t.html#aa918b519cc235746fbe4892b09655f4f", null ],
+      [ "bind_cb", "structaceBT__hfpCallbacks__t.html#ab20e922e0697cc3e7db6f54e22ad74e8", null ],
+      [ "chld_cmd_cb", "structaceBT__hfpCallbacks__t.html#ada01b49466212de3fc15cbae08675ebd", null ],
+      [ "cind_cmd_cb", "structaceBT__hfpCallbacks__t.html#a626d0dd6ecfb5e3c08fee1e39d13d64d", null ],
+      [ "clcc_cmd_cb", "structaceBT__hfpCallbacks__t.html#aef9fbcb40e4e3a39b6a7580e8f59c958", null ],
+      [ "cnum_cmd_cb", "structaceBT__hfpCallbacks__t.html#ac25a9e02c9f5384621d3ee7041214c75", null ],
+      [ "conn_state_cb", "structaceBT__hfpCallbacks__t.html#a03fb64ddebc2f517ceec7e9f1339b7ad", null ],
+      [ "cops_cmd_cb", "structaceBT__hfpCallbacks__t.html#a0606273db387d25756686fa78742c2c8", null ],
+      [ "dial_call_cmd_cb", "structaceBT__hfpCallbacks__t.html#a9c7609875c1de46031f5cc4b5e283bd3", null ],
+      [ "dtmf_cmd_cb", "structaceBT__hfpCallbacks__t.html#ae548cf467f14bdab49259298af620bbb", null ],
+      [ "hangup_call_cmd_cb", "structaceBT__hfpCallbacks__t.html#ad387a4594d927144508e9cd753096047", null ],
+      [ "key_pressed_cmd_cb", "structaceBT__hfpCallbacks__t.html#a12bf8152d6a1d21651bba1908a1bc9ea", null ],
+      [ "nrec_cmd_cb", "structaceBT__hfpCallbacks__t.html#ab59c4a4192ffbb580da288230c64e4c2", null ],
+      [ "size", "structaceBT__hfpCallbacks__t.html#a5945bfcad25cf1965821e053091f6177", null ],
+      [ "unknown_at_cmd_cb", "structaceBT__hfpCallbacks__t.html#a000bca536efa0120081b287ccf208e6c", null ],
+      [ "volume_cmd_cb", "structaceBT__hfpCallbacks__t.html#af154aa329afff84ae7d1b8f594b1ef75", null ],
+      [ "vr_cmd_cb", "structaceBT__hfpCallbacks__t.html#a149bd4004a538f222fb6724541011b09", null ],
+      [ "wbs_cb", "structaceBT__hfpCallbacks__t.html#a1cf2f9192d15c4e2a11fe0738c14686c", null ]
+    ] ],
+    [ "aceBT_serverSocket_callbacks_t", "structaceBT__serverSocket__callbacks__t.html", [
+      [ "connection_cfm_cb", "structaceBT__serverSocket__callbacks__t.html#a0d5d2dedda449dfe57a9a4fd19f8f747", null ],
+      [ "connection_req_cb", "structaceBT__serverSocket__callbacks__t.html#acc5432684be4d0eacfcc804ff33fa817", null ],
+      [ "size", "structaceBT__serverSocket__callbacks__t.html#ac3e9de882a33bd5cb2946e8017eaba9d", null ]
+    ] ],
+    [ "aceBT_clientSocket_callbacks_t", "structaceBT__clientSocket__callbacks__t.html", [
+      [ "conn_cb", "structaceBT__clientSocket__callbacks__t.html#ac32e8bcef786f9e100658e554fab25bd", null ],
+      [ "data_ready_cb", "structaceBT__clientSocket__callbacks__t.html#a4aba0b042a7fe0bf023781adc6c06364", null ],
+      [ "sdp_uuid_found_cb", "structaceBT__clientSocket__callbacks__t.html#aaef7df906a0a22fe978951b5e22cc467", null ],
+      [ "size", "structaceBT__clientSocket__callbacks__t.html#aba96bcac394da940dc99457828dc4b75", null ]
+    ] ],
+    [ "client_socket_connection_callback", "group__ACE__BT__CB__PROFILES.html#ga2bb31d90a68dc20fc93bf090854033e0", null ],
+    [ "client_socket_data_ready_callback", "group__ACE__BT__CB__PROFILES.html#ga80aa0f5db7e865da5e67d6765a375ef4", null ],
+    [ "client_socket_sdp_uuid_found_callback", "group__ACE__BT__CB__PROFILES.html#ga4d19757a18406d67b133c3702cda53dc", null ],
+    [ "hfp_answer_call_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga98780411cc6f3916e728fee8fa579ea2", null ],
+    [ "hfp_audio_state_callback", "group__ACE__BT__CB__PROFILES.html#gaa32a5ab12498c4a6ce15eaae90ab2457", null ],
+    [ "hfp_biev_cmd_callback", "group__ACE__BT__CB__PROFILES.html#gaea1dbcdf253ea7d8ee8fbe2b374d253d", null ],
+    [ "hfp_bind_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga984cceb4bf7b6f3ca17fab4eb8bb0a55", null ],
+    [ "hfp_chld_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga2516ff7c5cb47135c8db92e4d39ea4e1", null ],
+    [ "hfp_cind_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga43e71541041d8272b76bb66f9c324880", null ],
+    [ "hfp_clcc_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga331f0d4aa4368ccb14ae665822d4c30c", null ],
+    [ "hfp_cnum_cmd_callback", "group__ACE__BT__CB__PROFILES.html#gabc418fb2bcbacc84260ab9fb9b09b306", null ],
+    [ "hfp_connection_state_callback", "group__ACE__BT__CB__PROFILES.html#gaba76de6b31614e36079d690854ccae09", null ],
+    [ "hfp_cops_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga6639c3fd968fdca7b0cec935389b20a5", null ],
+    [ "hfp_dial_call_cmd_callback", "group__ACE__BT__CB__PROFILES.html#gabf2158e33f7b98cb0979de69966132cc", null ],
+    [ "hfp_dtmf_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga359f1a7551244af9e0b1c611a11785c3", null ],
+    [ "hfp_hangup_call_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga74a51cf5ee1e8f417a16de458154de2b", null ],
+    [ "hfp_key_pressed_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga80dc3fe509c6d66bf27dfd984ae23421", null ],
+    [ "hfp_nrec_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga8d4a64a8d9765b1e024e0d557a068169", null ],
+    [ "hfp_unknown_at_cmd_callback", "group__ACE__BT__CB__PROFILES.html#gaa72d45da0c8770b38db3ae5a340e8879", null ],
+    [ "hfp_volume_cmd_callback", "group__ACE__BT__CB__PROFILES.html#gaba2c0e41262188b7e94bc9ba4317d13d", null ],
+    [ "hfp_vr_cmd_callback", "group__ACE__BT__CB__PROFILES.html#ga73b3e23eb2593eb990e9c3da4b868cc4", null ],
+    [ "hfp_wbs_callback", "group__ACE__BT__CB__PROFILES.html#ga9777449a4607e0d3b104a57200ed318e", null ],
+    [ "incoming_rc_key_callback", "group__ACE__BT__CB__PROFILES.html#ga248c4d4b42efab858685862c6d470c79", null ],
+    [ "server_socket_connection_cfm", "group__ACE__BT__CB__PROFILES.html#ga9ab6e5d65d127ed5fb21541cb483c229", null ],
+    [ "server_socket_connection_req", "group__ACE__BT__CB__PROFILES.html#ga88b13f43535a4d89088c88fb943cfcab", null ]
+];

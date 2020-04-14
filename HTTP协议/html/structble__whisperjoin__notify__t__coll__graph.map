@@ -1,0 +1,7 @@
+<map id="ble_whisperjoin_notify_t" name="ble_whisperjoin_notify_t">
+<area shape="rect" id="node2" href="$structaceBT__bleGattCharacteristicsValue__t.html" title="{aceBT_bleGattCharacteristics\lValue_t\n|+ uint8Val\l+ uint16Val\l+ uint32Val\l+ int8Val\l+ int16Val\l+ int32Val\l+ @13\l+ format\l+ auth_retry\l+ read_auth_retry\l+ write_type\l+ descList\l+ multiDescCount\l|}" alt="" coords="139,359,336,627"/>
+<area shape="rect" id="node3" href="$structaceBT__bleGattRecord__t.html" title="BLE GATT record. " alt="" coords="5,5,168,112"/>
+<area shape="rect" id="node4" href="$structaceBT__bleGattDescriptor__t.html" title="BLE GATT Descriptor. " alt="" coords="147,175,327,296"/>
+<area shape="rect" id="node5" href="$structaceBT__bleGattBlobValue__t.html" title="BLE Blob value. " alt="" coords="239,5,417,112"/>
+<area shape="rect" id="node6" href="$structaceBT__bleConnectionHandle.html" title="{aceBT_bleConnectionHandle\n|+ instanceHandle\l|}" alt="" coords="361,454,551,531"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="aceBT_bleAdvList_t" name="aceBT_bleAdvList_t">
+<area shape="rect" id="node2" href="$structaceBT__BeaconAdvSettings.html" title="Beacon Advertisement settings. " alt="" coords="37,175,220,369"/>
+<area shape="rect" id="node3" href="$structaceBT__beaconExtendedAdvSettings__t.html" title="Extended advertisement specific settings. " alt="" coords="5,5,252,112"/>
+<area shape="rect" id="node4" href="$structBTUuid__t.html" title="UUID. " alt="" coords="245,204,322,340"/>
+<area shape="rect" id="node5" href="$structaceBT__BeaconData__t.html" title="Beacon Data. " alt="" coords="347,204,497,340"/>
+<area shape="rect" id="node6" href="$structaceBT__AdvInstance.html" title="{aceBT_AdvInstance\n|+ instanceHandle\l|}" alt="" coords="521,233,661,311"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="aceThermalHal_cbData_t" name="aceThermalHal_cbData_t">
+<area shape="rect" id="node2" href="$unionaceThermalHal__cbData__t_1_1DATA.html" title="{aceThermalHal_cbData\l_t::DATA\n|+ rsp\l|}" alt="" coords="107,175,266,267"/>
+<area shape="rect" id="node3" href="$structaceThermalHal__cdData__t.html" title="Data for thermal callback registered corresponding to different thermal message. This is for ACE_THER..." alt="" coords="5,5,176,112"/>
+<area shape="rect" id="node4" href="$structaceThermalHal__tzData__t.html" title="Data for thermal callback registered corresponding to different thermal message. This is for ACE_THER..." alt="" coords="201,5,367,112"/>
+</map>

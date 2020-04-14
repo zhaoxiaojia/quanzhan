@@ -1,0 +1,5 @@
+<map id="hal_adapter_common_info_cb_t" name="hal_adapter_common_info_cb_t">
+<area shape="rect" id="node2" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="5,13,132,90"/>
+<area shape="rect" id="node3" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="188,5,291,97"/>
+<area shape="rect" id="node4" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="315,13,433,90"/>
+</map>

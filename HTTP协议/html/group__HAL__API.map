@@ -1,0 +1,23 @@
+<map id="API Definitions" name="API Definitions">
+<area shape="rect" id="node1" href="$group__HAL__BLUETOOTH.html" title="HAL API for Bluetooth functionality. " alt="" coords="327,5,404,32"/>
+<area shape="rect" id="node2" href="$group__ACE__HAL__POWER.html" title="HAL API for low level power management. " alt="" coords="296,56,435,83"/>
+<area shape="rect" id="node3" href="$group__ACE__HAL__METRIC.html" title="HAL Metric API. " alt="" coords="333,107,398,133"/>
+<area shape="rect" id="node4" href="$group__ACE__HAL__THERMAL.html" title="HAL API for low level Thermal management. " alt="" coords="291,157,439,184"/>
+<area shape="rect" id="node5" href="$group__ACE__HAL__VIRTUAL__KEY.html" title="HAL API for Virtual Key Input. " alt="" coords="306,208,425,235"/>
+<area shape="rect" id="node6" href="$group__ACE__HAL__LED.html" title="API for LED functionality. " alt="" coords="341,259,389,285"/>
+<area shape="rect" id="node7" href="$group__ACE__HAL__OTA.html" title="A set of APIs implemented by the platform that enable platform&#45;specific download, validation..." alt="" coords="294,309,437,336"/>
+<area shape="rect" id="node8" href="$group__ACE__HAL__LOG.html" title="API for Log functionality. " alt="" coords="344,360,387,387"/>
+<area shape="rect" id="node9" href="$group__HAL.html" title="ACE Hardware and Platform Abstraction Layer. " alt="" coords="5,487,53,513"/>
+<area shape="rect" id="node10" href="$group__ACE__HAL__FR.html" title="HAL API for performing device level factory reset. " alt="" coords="313,411,418,437"/>
+<area shape="rect" id="node11" href="$group__ACE__HAL__KV__STORAGE.html" title="HAL API for Key value storage. " alt="" coords="321,461,410,488"/>
+<area shape="rect" id="node12" href="$group__ACE__HAL__AUDIO__MANAGER.html" title="APIs for Audio Manager functionality. " alt="" coords="311,512,420,539"/>
+<area shape="rect" id="node13" href="$group__ACE__HAL__BUTTON.html" title="Button HAL API Definitions. " alt="" coords="335,563,395,589"/>
+<area shape="rect" id="node14" href="$group__ACE__HAL__BATTERY.html" title="HAL API for low level battery management. " alt="" coords="294,613,437,640"/>
+<area shape="rect" id="node15" href="$group__ACE__HAL__AMBIENT__LIGHT.html" title="HAL API for reading Ambient Light Sensor. " alt="" coords="292,664,439,691"/>
+<area shape="rect" id="node16" href="$group__ACE__HAL__BLOCK__DEVICE.html" title="HAL API for block device I/O. " alt="" coords="315,715,415,741"/>
+<area shape="rect" id="node17" href="$group__ACE__HAL__WIFI.html" title="HAL API for WiFi functionality. " alt="" coords="341,765,390,792"/>
+<area shape="rect" id="node19" href="$group__ACE__HAL__CIRCULARDS.html" title="A set of APIs which implement a circular buffer based storage in flash for its users. " alt="" coords="298,816,433,843"/>
+<area shape="rect" id="node20" href="$group__ACS__HAL__DHAV2.html" title="HAL API for device authentication. " alt="" coords="260,867,471,909"/>
+<area shape="rect" id="node21" href="$group__ACE__HAL__DEVICE__INFO.html" title="DeviceInfo HAL API Definitions. " alt="" coords="323,933,408,960"/>
+<area shape="rect" id="node22" href="$group__ACE__HAL__AUDIO.html" title="API for Audio functionality. " alt="" coords="338,984,393,1011"/>
+</map>

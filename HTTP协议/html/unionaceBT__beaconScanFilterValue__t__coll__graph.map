@@ -1,0 +1,9 @@
+<map id="aceBT_beaconScanFilterValue_t" name="aceBT_beaconScanFilterValue_t">
+<area shape="rect" id="node2" href="$structaceBT__ScanFilterServiceData__t.html" title="Scan filter for service data type. " alt="" coords="5,182,215,289"/>
+<area shape="rect" id="node3" href="$structaceBT__bdName__t.html" title="Bluetooth Device Name. " alt="" coords="239,197,365,274"/>
+<area shape="rect" id="node4" href="$structaceBT__ScanFilterManuFactData__t.html" title="Scan filter for manufacturer data type. " alt="" coords="390,175,574,296"/>
+<area shape="rect" id="node5" href="$structaceBT__ScanFilterServiceDataUuid__t.html" title="Scan filter for service data uuid type This service data uuid MUST be 2 bytes (16 bits) ..." alt="" coords="599,189,797,281"/>
+<area shape="rect" id="node6" href="$structaceBT__uuid__t.html" title="Struct for Bluetooth UUID representation. " alt="" coords="761,5,864,97"/>
+<area shape="rect" id="node7" href="$structaceBT__ScanFilterServiceUUID__t.html" title="Scan filter for service UUID type. " alt="" coords="821,197,1036,274"/>
+<area shape="rect" id="node8" href="$structaceBT__bdAddr__t.html" title="Bluetooth Address. " alt="" coords="1060,197,1179,274"/>
+</map>

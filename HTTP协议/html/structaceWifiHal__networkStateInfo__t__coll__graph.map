@@ -1,0 +1,4 @@
+<map id="aceWifiHal_networkStateInfo_t" name="aceWifiHal_networkStateInfo_t">
+<area shape="rect" id="node2" href="$structaceWifiHal__wifiInfo__t.html" title="WiFi info. Describes the WiFi network information when connected, or the disconnect reason when WiFi ..." alt="" coords="33,160,180,311"/>
+<area shape="rect" id="node3" href="$structaceWifiHal__ipAddress__t.html" title="IP address data. " alt="" coords="25,5,188,97"/>
+</map>

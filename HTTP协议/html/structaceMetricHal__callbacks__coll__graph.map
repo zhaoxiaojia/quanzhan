@@ -1,0 +1,4 @@
+<map id="aceMetricHal_callbacks" name="aceMetricHal_callbacks">
+<area shape="rect" id="node2" href="$structaceMetricHal__metadata.html" title="KDM metric metadata structure with a key/value pair used to represent a dimension or an annotation..." alt="" coords="5,42,165,134"/>
+<area shape="rect" id="node3" href="$structaceMetricHal__pmetDatapoint.html" title="This structure defines a PMET datapoint. A PMET is a performance metric, a variable to monitor over t..." alt="" coords="190,5,381,171"/>
+</map>

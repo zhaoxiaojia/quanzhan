@@ -1,0 +1,5 @@
+<map id="Quick Start Guides" name="Quick Start Guides">
+<area shape="rect" id="node1" href="$group__ESP32__QUICK__START__GUIDE.html" title="ESP32 Quick Start Guide" alt="" coords="352,5,523,32"/>
+<area shape="rect" id="node2" href="$group__RPI__QUICK__START__GUIDE.html" title="Raspberry Pi Quick\l Start Guide" alt="" coords="369,57,505,98"/>
+<area shape="rect" id="node3" href="$group__ACS__CORE__DOCS.html" title="ACS core documentation. " alt="" coords="5,35,123,61"/>
+</map>

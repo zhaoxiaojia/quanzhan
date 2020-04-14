@@ -1,0 +1,4 @@
+<map id="aceWifiHal_configList_t" name="aceWifiHal_configList_t">
+<area shape="rect" id="node2" href="$structaceWifiHal__config__t.html" title="Wifi configuration (STA mode) Describes a configured network. " alt="" coords="16,160,155,355"/>
+<area shape="rect" id="node3" href="$structaceWifiHal__wepKey__t.html" title="WiFi WEP key (64&#45; and 128&#45;bit keys only) " alt="" coords="10,5,161,97"/>
+</map>

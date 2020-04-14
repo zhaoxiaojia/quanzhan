@@ -1,0 +1,5 @@
+<map id="aceBT_sessionCallbacks_t" name="aceBT_sessionCallbacks_t">
+<area shape="rect" id="node2" href="$structaceBT__session.html" title="{aceBT_session\n|+ session_type\l+ p_session_data\l+ p_clientHdl\l|}" alt="" coords="156,160,281,267"/>
+<area shape="rect" id="node3" href="$structaceBT__event__handler.html" title="{aceBT_event_handler\n|+ min\l+ max\l|}" alt="" coords="218,5,366,97"/>
+<area shape="rect" id="node4" href="$structaceBT__aipcHandles__t.html" title="{aceBT_aipcHandles_t\n|+ callback_server_id\l+ server_id\l|}" alt="" coords="390,5,541,97"/>
+</map>
