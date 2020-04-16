@@ -35,6 +35,7 @@ def service_client(new_socket):
         response = 'HTTP/1.1 404 NOT FOUND\r\n'
         response += '\r\n'
         response += 'not found '
+        new_socket.send(response.encode('utf-8'))
     else:
         # 2. 返回http格式的数据，给浏览器
         # 2.1 准备发送给浏览器的数据 --header
