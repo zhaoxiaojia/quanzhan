@@ -62,6 +62,7 @@ if __name__ == '__main__':
 
     tcp_server_socket.bind(('', 7890))
     tcp_server_socket.listen(128)
+
     # 将套接字变为非堵塞
     tcp_server_socket.setblocking(False)
 
