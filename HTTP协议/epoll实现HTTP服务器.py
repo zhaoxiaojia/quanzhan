@@ -80,7 +80,7 @@ if __name__ == '__main__':
             # 等待新客户端的连接
             if fd == tcp_server_socket.fileno():
                 new_socket, client_addr = tcp_server_socket.accept()
-                epl.register(new_socket.fileno(), select.EPOLLIN)
+                epl.register(new_socket.fileno(), select.EPOLLIN) 
                 fd_event_dict[new_socket.fileno()] = new_socket
             elif event == select.EPOLLIN:
                 # 判断已经链接的客户端是否有数据发送过来
