@@ -67,26 +67,27 @@ if __name__ == '__main__':
     tcp_server_socket.setblocking(False)
 
     # 创建一个epoll对象
-    select.epoll()
-    client_socket_list = list()
-    while True:
-        try:
-            new_socket, client_addr = tcp_server_socket.accept()
-        except Exception:
-            ...
-        else:
-            new_socket.setblocking(False)
-            client_socket_list.append(new_socket)
+    epl = select.epoll()
 
-        for client_socket in client_socket_list:
-            try:
-                recv_data = client_socket.recv(1024).decode('utf-8')
-            except Exception:
-                ...
-            else:
+    # 将对应的套接字fd注册到epoll
+    epl.register(tcp_server_socket.fileno(), select.EPOLLIN)
+    fd_event_dict = dict()
+    while True:
+        # 默认会堵塞，直到os 监测到数据到来，通过事件通知方式 告诉这个程序，此时才会解堵塞
+        fd_event_list = epl.poll()
+        # [(fd,event),(套接字对应的文件描述符，这个文件描述符到死是个什么事件， 例如 可以调用recv接收等
+        for fd, event in fd_event_list:
+            # 等待新客户端的连接
+            if fd == tcp_server_socket.fileno():
+                new_socket, client_addr = tcp_server_socket.accept()
+                epl.register(new_socket.fileno(), select.EPOLLIN)
+                fd_event_dict[new_socket.fileno()] = new_socket
+            elif event == select.EPOLLIN:
+                # 判断已经链接的客户端是否有数据发送过来
+                recv_data = fd_event_dict[fd].recv(1024).decode('utf-8')
                 if recv_data:
-                    server_client(client_socket, recv_data)
+                    server_client(fd_event_dict[fd], recv_data)
                 else:
-                    client_socket.close()
-                    client_socket_list.remove(client_socket)
-    tcp_server_socket.close()
+                    fd_event_dict[fd].close()
+                    epl.unregister(fd)
+                    del fd_event_dict[fd]
