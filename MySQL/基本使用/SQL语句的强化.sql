@@ -9,5 +9,8 @@ select cate_name,avg(price) from goods group by cate_name;
 -- 查询每种类型中商品中 最贵，最便宜，平均价，数量
 select cate_name,max(price),min(price),avg(price),count(*) from goods group by cate_name;
 -- 查询所有价格大于平均价格的商品，并且按照价格降序排序
-select * from goods where price > (select avg(price) from goods);
+select id,name from goods where price > (select round(avg(price),2) as avg_price from goods) order by price desc;
 -- 查询每种类型中最贵的电脑信息
+select * from (
+    select cate_name,max(price) as max_price from goods group by cate_name
+)as g_new left join goods as g on g_new.cate_name=g.cate_name and g_new.max_price=g.price order by g_new.cate_name;
