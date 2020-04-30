@@ -59,6 +59,7 @@ if __name__ == '__main__':
 
         # 5. 为这个客户端服务
         p = multiprocessing.Process(target=server_client, args=(new_socket, AC))
+        print(p)
         p.start()
         new_socket.close()
     tcp_server_socket.close()

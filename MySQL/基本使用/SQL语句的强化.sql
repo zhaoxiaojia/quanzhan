@@ -14,3 +14,6 @@ select id,name from goods where price > (select round(avg(price),2) as avg_price
 select * from (
     select cate_name,max(price) as max_price from goods group by cate_name
 )as g_new left join goods as g on g_new.cate_name=g.cate_name and g_new.max_price=g.price order by g_new.cate_name;
+
+-- 视图 可查看不可修改
+create view v_goods_info as select g.*,c.name as cate_name,b.name as brands_name from goods as g left join goods_cates as c on g.cate_id=c.id left join goods_brands as b on g.brand_id=b.id;
