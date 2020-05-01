@@ -26,18 +26,19 @@ import socket
 import re
 import multiprocessing
 import time
-import mini_frame
+# import mini_frame
 import os
+import sys
 
 
 class WSGIServer:
-    def __init__(self):
+    def __init__(self, port,app):
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-        self.tcp_server_socket.bind(('', 7890))
+        self.tcp_server_socket.bind(('', port))
         self.tcp_server_socket.listen(128)
-
+        self.application = app
     def server_client(self, new_socket):
         request = new_socket.recv(1024).decode('utf-8')
         if not request:
@@ -74,7 +75,8 @@ class WSGIServer:
             #     body = mini_frame.register()
             env = dict()
             env['PATH_INFO'] = file_name
-            body = mini_frame.application(env, self.set_response_header)
+            body = self\
+                 .application(env, self.set_response_header)
             header = 'HTTP/1.1 %s\r\n' % self.status
             for temp in self.headers:
                 header += '%s:%s\r\n' % (temp[0], temp[1])
@@ -98,5 +100,27 @@ class WSGIServer:
 
 
 if __name__ == '__main__':
-    wsgi_server = WSGIServer()
+    if len(sys.argv) == 3:
+        try:
+            port = int(sys.argv[1])  # 7890
+            frame_app_name = sys.argv[2]  # xxxx_frame:application
+        except Exception as e:
+            print('端口输入错误')
+            exit()
+    else:
+        print('请按照以下方式运行:')
+        print('python3 xxx.py 7890 xxxx_frame:application')
+    ret = re.match(r'([^:]+):(.*)', frame_app_name)
+    if ret:
+        frame_name = ret.group(1)  # xxxx_frame
+        app_name = ret.group(2)  # application
+    else:
+        print('请按照以下方式运行:')
+        print('python3 xxx.py 7890 xxxx_frame:application')
+        exit()
+    # import frame_name 寻找 frame_name
+    # sys.path.append('xxx/xxx')
+    frame = __import__(frame_name)  # 返回值标记 导入的模块
+    app = getattr(frame, app_name)  # 此时app指向了dynamic/mini_frame模块中的application
+    wsgi_server = WSGIServer(port, app)
     wsgi_server.run_forever()
