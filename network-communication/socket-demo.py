@@ -3,7 +3,7 @@
 # @Time    : 2020/3/31 9:47
 # @Author  : Coco
 # @Site    : SH #5-389
-# @File    : socket-demo.py
+# @File    : socket-闭包demo.py
 # @Email   : chao.li@amlogic.com
 # @Software: PyCharm
 

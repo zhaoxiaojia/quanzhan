@@ -3,7 +3,7 @@
 # @Time    : 2020/4/22 19:05
 # @Author  : Coco
 # @Site    : SH #5-389
-# @File    : property-demo.py
+# @File    : property-闭包demo.py
 # @Email   : chao.li@amlogic.com
 # @Software: PyCharm
 
