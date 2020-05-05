@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2020/4/29 21:54
 # @Author  :Coco
-# @FileName: web_server-WSGI.py
+# @FileName: web_server_WSGI.py
 
 # @Software: PyCharm
 """
@@ -26,19 +26,20 @@ import socket
 import re
 import multiprocessing
 import time
-# import mini_frame
+# import dynamic.mini_frame
 import os
 import sys
 
 
 class WSGIServer:
-    def __init__(self, port,app):
+    def __init__(self, port, app):
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
         self.tcp_server_socket.bind(('', port))
         self.tcp_server_socket.listen(128)
         self.application = app
+
     def server_client(self, new_socket):
         request = new_socket.recv(1024).decode('utf-8')
         if not request:
@@ -50,22 +51,22 @@ class WSGIServer:
             file_name = ret.group(1)
             if file_name == '/':
                 file_name = '/index.html'
-        if not file_name.endswith('.py'):
-            # 然后请求的资源不是以.py结尾 那么就认为是静态资源(html/css/js/png,jpg)等
+        if not file_name.endswith('.html'):
+            # 然后请求的资源不是以.py结尾 那么就认为是静态资源(css/js/png,jpg)等
             try:
-                with open('../HTTP协议/html' + file_name, 'rb') as f:
+                with open('./static' + file_name, 'rb') as f:
                     html_content = f.read()
             except:
-                responce = 'HTTP/1.1 404 NOT FOUND \r\n'
-                responce += '\r\n'
-                responce += '----- file not found -----'
-                new_socket.send(responce.encode('utf-8'))
+                response = 'HTTP/1.1 404 NOT FOUND \r\n'
+                response += '\r\n'
+                response += '----- file not found -----'
+                new_socket.send(response.encode('utf-8'))
             else:
                 responce_body = html_content
                 responce_header = 'HTTP/1.1 200 ok\r\n'
                 responce_header += '\r\n'
-                responce = responce_header.encode('utf-8') + responce_body
-                new_socket.send(responce)
+                response = responce_header.encode('utf-8') + responce_body
+                new_socket.send(response)
         else:
             # 如果是以.py结尾，那么就认为是动态资源的请求
 
@@ -75,8 +76,8 @@ class WSGIServer:
             #     body = mini_frame.register()
             env = dict()
             env['PATH_INFO'] = file_name
-            body = self\
-                 .application(env, self.set_response_header)
+            body = self \
+                .application(env, self.set_response_header)
             header = 'HTTP/1.1 %s\r\n' % self.status
             for temp in self.headers:
                 header += '%s:%s\r\n' % (temp[0], temp[1])
@@ -106,7 +107,6 @@ if __name__ == '__main__':
             frame_app_name = sys.argv[2]  # xxxx_frame:application
         except Exception as e:
             print('端口输入错误')
-            exit()
     else:
         print('请按照以下方式运行:')
         print('python3 xxx.py 7890 xxxx_frame:application')
@@ -117,9 +117,9 @@ if __name__ == '__main__':
     else:
         print('请按照以下方式运行:')
         print('python3 xxx.py 7890 xxxx_frame:application')
-        exit()
     # import frame_name 寻找 frame_name
     # sys.path.append('xxx/xxx')
+    sys.path.append('./dynamic')
     frame = __import__(frame_name)  # 返回值标记 导入的模块
     app = getattr(frame, app_name)  # 此时app指向了dynamic/mini_frame模块中的application
     wsgi_server = WSGIServer(port, app)

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # _*_coding:utf-8 _*_
-# @Time    :2020/4/30 6:22
+# @Time    :2020/5/5 21:21
 # @Author  :Coco
-# @FileName: mini_frame.py
+# @FileName: 元类.py
 
 # @Software: PyCharm
 """
@@ -23,21 +23,22 @@
 """
 
 
-def index():
-    # Todo
-    return '这是主页'
+def upper_attr(class_name, class_parents, class_attr):
+    # 遍历属性字典，把不是__开头的属性名字变为大写
+    new_attr = {}
+    for name, value in class_attr.items():
+        if not name.startswith('_'):
+            new_attr[name.upper()] = value
+
+    # 调用type来创建一个类
+    return type(class_name, class_parents, new_attr)
 
 
-def login():
-    # Todo
-    return '这是登陆页'
+class Foo(object, metaclass=upper_attr):
+    bar = 'bip'
 
 
-def application(env, start_response):
-    start_response('200 OK', [('Content-Type', 'text/html;charset=utf-8')])
-    file_name = env['PATH_INFO']
-    if file_name == '/index.py':
-        return index()
-    elif file_name == '/login.py':
-        return login()
-    return 'Hello World 我爱你中国'
+print(hasattr(Foo, 'bar'))
+print(hasattr(Foo, 'BAR'))
+f = Foo()
+print(f.BAR)
