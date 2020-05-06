@@ -2,7 +2,7 @@
 # _*_coding:utf-8 _*_
 # @Time    :2020/5/5 21:21
 # @Author  :Coco
-# @FileName: 元类.py
+# @FileName: 元类demo.py
 
 # @Software: PyCharm
 """
