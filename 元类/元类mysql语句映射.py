@@ -13,10 +13,10 @@ class ModelMetaclass(type):
         for key, value in attrs.items():
             # 判断是否是元祖类型 是则保存
             if isinstance(value, tuple):
-                print('Found mapping ：%s ==> %s', (key, value))
+                print('Found mapping ：%s ==> %s' % (key, value))
                 mappings[key] = value
         # 删除字典里的属性
-        for key in list(attrs.keys()):
+        for key in mappings.keys():
             attrs.pop(key)
         # 重新添加属性
         attrs['__mappings__'] = mappings
@@ -24,12 +24,7 @@ class ModelMetaclass(type):
         return type.__new__(cls, name, bases, attrs)
 
 
-class User(metaclass=ModelMetaclass):
-    uid = ('uid', 'int unsigned')
-    name = ('username', 'varchar(30)')
-    email = ('email', 'varchar(30)')
-    password = ('password', 'varchar(30)')
-
+class Model(object, metaclass=ModelMetaclass):
     def __init__(self, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
@@ -37,12 +32,28 @@ class User(metaclass=ModelMetaclass):
     def save(self):
         fields = list()
         args = list()
-        for key, value in self.__mapping__.items():
+        for key, value in self.__mappings__.items():
             fields.append(value[0])
             args.append(getattr(self, key, None))
 
-        sql = 'insert into %s (%s) value (%s)' % (self.__table__, ','.join(fields), ','.join([str(i) for i in args]))
+        # sql = 'insert into %s (%s) value (%s)' % (self.__table__, ','.join(fields), ','.join([str(i) for i in args]))
+        # print('SQL：' + sql)
+        args_temp = list()
+        for temp in args:
+            if isinstance(temp, int):
+                args_temp.append(temp)
+            elif isinstance(temp, str):
+                args_temp.append("""'%s'""" % temp)
+        sql = 'insert into %s (%s) value (%s)' % (
+            self.__table__, ','.join(fields), ','.join([str(i) for i in args_temp]))
         print('SQL：' + sql)
+
+
+class User(Model):
+    uid = ('uid', 'int unsigned')
+    name = ('username', 'varchar(30)')
+    email = ('email', 'varchar(30)')
+    password = ('password', 'varchar(30)')
 
 
 u = User(uid=12345, name='coco', email='xxx@xx.com', password='123')
