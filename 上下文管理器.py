@@ -11,6 +11,7 @@ from contextlib import contextmanager
 
 '''
 Python 还提供了一个contextmanager的装饰器，更进一步简化了上下文管理器的实现方法，用过yield将函数分割两部分，yield之前的语句在__enter__ 方法中执行，yield之后的语句在__exit__方法中执行。紧跟在yield 后面的值是函数的返回值
+什么是上下文管理器？上下文管理器就是允许你可以自动地开始和结束一些事情
 '''
 @contextmanager
 def my_open(path, mode):

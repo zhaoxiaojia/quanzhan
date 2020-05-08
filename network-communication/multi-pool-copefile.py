@@ -28,7 +28,7 @@ import time
 import sys
 
 def copy_file(q, origin, old_path, new_path):
-    # print('线程%d 正在拷贝文件%s' % (os.getpid(), origin))
+    # print('进程%d 正在拷贝文件%s' % (os.getpid(), origin))
     # print('b' if '' else 'a ')
     # print(os.getpgid() if os.getpgid() else 'c')
 
@@ -68,6 +68,7 @@ if __name__ == '__main__':
     while True:
 
         file_name = que.get()
+        # 每次从queue中get一个数据之后，当处理好相关问题，最后调用该方法，以提示q.join()是否停止阻塞，让线程向前执行或者退出
         que.task_done()
         copy_ok_num += 1
         # print('已经完成copy%s' % file_name)

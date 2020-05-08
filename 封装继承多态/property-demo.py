@@ -16,14 +16,29 @@ class Foo1:
     def prop(self):
         print('zeus')
         return 'a'
+'''
+foo_obj = Foo1()
+foo_obj.func()
+a = foo_obj.prop
+print(a)
 
+coco
+zeus
+a
+'''
 
 class Foo2:
     def get_bar(self):
         return 'coco'
 
     BAR = property(get_bar)
+'''
+obj = Foo2()
+result = obj.BAR
+print(result)
 
+coco
+'''
 
 class Foo3:
     '''
@@ -48,7 +63,19 @@ class Foo3:
         return 'coco'
 
     BAR = property(get_bar, set_bar, del_bar, 'description...')
+'''
+obj = Foo3()    
+obj.BAR
+obj.BAR = 'alex'
+desc = Foo3.BAR.__doc__
+print(desc)
+del obj.BAR
 
+getter...
+setter...
+description...
+deleter...
+'''
 
 class Pager:
     def __init__(self, current_page):
@@ -64,7 +91,14 @@ class Pager:
     def end(self):
         val = self.current_page * self.per_items
         return val
+'''
+p = Pager(1)
+print(p.start)
+print(p.end)
 
+0
+10
+'''
 
 class Goods:
     def __init__(self):
@@ -85,6 +119,14 @@ class Goods:
     def price(self):
         del self.original_price
 
+'''
+obj = Goods()
+obj.price
+obj.price = 200
+del obj.price
+
+80.0
+'''
 
 if __name__ == '__main__':
     # foo_obj = Foo1()
@@ -96,18 +138,18 @@ if __name__ == '__main__':
     # print(p.start)
     # print(p.end)
 
-    # obj = Goods()
-    # obj.price
-    # obj.price = 200
-    # del obj.price
+    obj = Goods()
+    obj.price
+    obj.price = 200
+    del obj.price
 
     # obj = Foo2()
     # result = obj.BAR
     # print(result)
 
-    obj = Foo3()
-    obj.BAR
-    obj.BAR = 'alex'
-    desc = Foo3.BAR.__doc__
-    print(desc)
-    del obj.BAR
+    # obj = Foo3()
+    # obj.BAR
+    # obj.BAR = 'alex'
+    # desc = Foo3.BAR.__doc__
+    # print(desc)
+    # del obj.BAR

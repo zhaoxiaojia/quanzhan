@@ -23,7 +23,7 @@ def main():
     filename = new_client_socket.recv(1024)
     print('客户端（%s)需要下载的文件是：%s' % (str(client_addr), filename))
     # 6. 会送一部分数据给客户端
-    new_client_socket.send('cocco'.encode('utf-8'))
+    new_client_socket.send('coco'.encode('utf-8'))
     # 7. 关闭套接字
     new_client_socket.close()
     tcp_server_socket.close()

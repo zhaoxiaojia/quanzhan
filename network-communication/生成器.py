@@ -29,13 +29,14 @@ def create_num(all_num):
     current_num = 0
     while current_num < all_num:
         # print('---2---')
+        # yeild 返回对象时还可以接受一个参数
         ret = yield a
         print('---ret---',ret)
         # print('---3---')
         a, b = b, a + b
         current_num += 1
         # print('---4---')
-    return  'coco'
+    return  'zeus'
 
 obj2 = create_num(50)
 
@@ -50,4 +51,5 @@ obj2 = create_num(50)
 print(next(obj2))
 
 print(obj2.send('coco'))
+print(next(obj2))
 print(next(obj2))

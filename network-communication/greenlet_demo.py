@@ -28,15 +28,17 @@ import time
 
 def test1():
     while True:
-        print('---A---')
+        print(12)
         gr2.switch()
+        print(34)
         time.sleep(0.5)
 
 
 def test2():
     while True:
-        print('---B---')
+        print(56)
         gr1.switch()
+        print(78)
         time.sleep(0.5)
 
 

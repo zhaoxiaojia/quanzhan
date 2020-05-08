@@ -33,3 +33,13 @@ class Grandson(Son):
 
 grandson = Grandson('coco',23,'男')
 print(Grandson.__mro__)
+
+'''
+grandson.__init__ start
+son.__init__ start
+parent.__init__ start
+parent.__init__ end
+son.__init__ end
+grandson.__init__ end
+(<class '__main__.Grandson'>, <class '__main__.Son'>, <class '__main__.Parent'>, <class 'object'>)
+'''

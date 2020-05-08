@@ -40,5 +40,6 @@ if __name__ == '__main__':
         po.apply_async(worker, (i,))
     print('-----start-----')
     po.close()
+    # 等待所有子进程结束
     po.join()
     print('-----end-----')
