@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<h1>注册表单</h1>
+<!--form 为表单标签 不是from-->
+<form action="" method="get">
+    <!--为表单元素定义文字标注-->
+    <p>
+        <label for="username">用户名：</label>
+        <input type="text" name="username" id="username"/>
+    </p>
+    <p>
+        <!--密码框-->
+        <label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+        <input type="password" name="password" id="password"/>
+    </p>
+    <p>
+        <!--单选框-->
+        <label>性&nbsp;&nbsp;&nbsp;别：</label>
+        <input type="radio" name="gender" value="0" id="male"/> <label for="male">男</label>
+        <input type="radio" name="gender" value="1" id="female"/> <label for="female">女</label>
+    </p>
+    <p>
+        <!--多选框-->
+        <label>爱&nbsp;&nbsp;&nbsp;好：</label>
+        <input type="checkbox" name="hobby" value="study"> 学习
+        <input type="checkbox" name="hobby" value="python"> python
+        <input type="checkbox" name="hobby" value="html"> 前端
+    </p>
+    <p>
+        <!--文件选择框-->
+        <label>靓&nbsp;&nbsp;&nbsp;照：</label>
+        <input type="file" name="">
+    </p>
+    <p>
+        <!--多行文本框-->
+        <label>个人介绍：</label>
+        <textarea name="introduce"></textarea>
+    </p>
+    <p>
+        <label>籍&nbsp;&nbsp;&nbsp;贯：</label>
+        <!--下拉框-->
+        <select name="site">
+            <option value="0">北京</option>
+            <option value="1">上海</option>
+            <option value="2">广州</option>
+            <option value="3">深圳</option>
+        </select>
+    </p>
+    <input type="hidden" name="hid01" value="12">
+    <p>
+        <!--提交-->
+        <input type="submit" name="" value="提交">
+        <!--        使用图片代替控件提交，一般会提交两次，不建议使用-->
+        <!--        <input type="image" src="../image/goods.jpg" name="提交">-->
+        <!--重置-->
+        <input type="reset" name="" value="重置">
+    </p>
+</form>
+</body>
+</html>
