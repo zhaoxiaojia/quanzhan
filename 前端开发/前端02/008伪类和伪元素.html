@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类和伪元素</title>
+	<style type="text/css">
+		.link{
+			font-size: 40px;
+			text-decoration: none;
+			color: pink;
+
+		}
+		
+		.link:hover{
+			color: gold;
+			font-weight: bold;
+			/*设置字体倾斜*/
+			font-style: italic;
+		}
+
+		.box01,.box02{
+			font-size: 20px;
+		}
+
+		.box01:before{
+			content: "前面的文字";
+			color:pink;
+		}
+		.box02:after{
+			content: "后面的文字";
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<a href="http://www.bilibili.com" class="link">[]~(￣▽￣)~*</a>
+	<div class="box01">这是第一个div</div>
+	<div class="box02">这是第一个div</div>
+</body>
+</html>

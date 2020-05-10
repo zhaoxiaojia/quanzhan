@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css选择器</title>
+	<style type="text/css">
+		/**表示为选中所有标签*/
+		*{
+			font-size: 20px;
+			color: #5f5f5f
+
+		}
+		/*id选择器*/
+		#div1{
+			color: #f5f5f5
+		}
+		/*标签选择器*/
+		div{
+			color: red;
+		}
+		
+		/*类选择器*/
+		.green{
+			color: green;
+		}
+		
+		.big{
+			font-size: 40px
+		}
+
+	</style>
+</head>
+
+<body>	
+	<!-- class属性的值为类选择器名字 --> 
+	<div id="div1" class="big">这是第一个div</div>
+	<div class="green big">这是第二个div</div>
+	<div>这是第三个div</div>
+	<p>这是一个p标签</p>
+</body>
+</html>
