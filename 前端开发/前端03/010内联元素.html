@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>内联元素</title>
+	<style type="text/css">
+		.box{
+			width: 500px;
+			height: 300px;
+			border: 1px solid #000;
+			margin: 50px auto 0;
+			font-size: 0;
+		}
+		.box div{
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			background-color: gold;
+		}
+		.box a{
+			background-color: gold;
+			/*不支持宽高属性设置*/
+			width: 300px;
+			height: 200px;
+			/*不支持margin 上下属性设置*/
+			/*margin: 100px 20px;*/
+			padding: 0px 10px;
+			font-size: 16px;
+		}
+		.box2{
+			width: 500px;
+			height: 100px;
+			border: 1px solid #000;
+			margin: 50px auto 0;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- 内联元素，也可以称为行内元素，布局中常用的标签如：a、span、em、b、strong、i等等都是内联元素，它们在布局中的行为
+		支持部分样式（不支持宽，高，margin上下，padding上下）
+		宽高有内容决定
+		盒子并在一行
+		代码换行，盒子之间会产生间距
+		子元素都是内联元素，父元素可以用text-align属性设置子元素水平对齐方式
+	 -->
+	 <!-- 父级设置font-size为0 子级重新设置可以去除标签间的间隙 -->
+	 <div class="box">
+	 	<a href="#">[]~(￣▽￣)~*1</a>
+	 	<a href="#">[]~(￣▽￣)~*2</a>
+	 	<a href="#">[]~(￣▽￣)~*3</a>
+	 	<a href="#">[]~(￣▽￣)~*4</a>
+	 	<a href="#">[]~(￣▽￣)~*5</a>
+	 </div>
+	 <div class="box2">
+	 	<a href="#">[]~(￣▽￣)~*</a>
+	 </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>内联元素</title>
+	<style type="text/css">
+		.box{
+			width: 500px;
+			height: 300px;
+			border: 1px solid #000;
+			margin: 50px auto 0;
+			font-size: 0;
+		}
+		.box div{
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			background-color: gold;
+		}
+		.box a{
+			background-color: gold;
+			/*不支持宽高属性设置*/
+			width: 100px;
+			height: 50px;
+			/*不支持margin 上下属性设置*/
+			margin: 20px;
+			padding: 0px 10px;
+			font-size: 16px;
+			display: inline-block;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- 内联块元素，也可以叫内块元素，是新增的元素类型，现有元素没有归于词类别的，img和input元素的行为类似这种元素，但是也归于内联元素，我们可以用display属性将块元素或者内联元素转化成这种元素。它们在布局中的表现
+		支持全部样式
+		如果没有设置宽高，宽高有内容决定
+		盒子并在一行
+		代码换行，盒子会产生间距
+		子元素是内联块元素，父元素可以使用text-align属性设置子元素水平对齐方式 
+	-->
+	<div class="box">
+		<a href="#">[]~(￣▽￣)~*1</a>
+		<a href="#">[]~(￣▽￣)~*2</a>
+		<a href="#">[]~(￣▽￣)~*3</a>
+		<a href="#">[]~(￣▽￣)~*4</a>
+		<a href="#">[]~(￣▽￣)~*5</a>
+	</div>
+</body>
+</html>
