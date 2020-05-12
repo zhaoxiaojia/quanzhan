@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fbc1ccd-e30a-4a9b-b8c5-7e3908ad8d78" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="home" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZtcEXK5jVi5RopXmu4O3qd4rby" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/多进程-web服务器/templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\quanzhan\多进程-web服务器\templates" />
+      <recent name="E:\quanzhan\多进程-web服务器" />
+      <recent name="E:\quanzhan\HTTP协议" />
+      <recent name="E:\quanzhan\network-communication" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\quanzhan\多进程-web服务器\dynamic" />
+      <recent name="E:\quanzhan\network-communication" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.元类mysql语句映射">
+    <configuration name="带有参数的装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包/带有参数的装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="元类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/元类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="闭包demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\quanzhan\闭包\闭包demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="装饰器demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包/装饰器demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mini_frame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多进程-web服务器/dynamic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多进程-web服务器/dynamic/mini_frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="元类mysql语句映射" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/元类" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/元类/元类mysql语句映射.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_server_WSGI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多进程-web服务器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\quanzhan\多进程-web服务器\web_server_WSGI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_server_WSGI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quanzhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多进程-web服务器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\quanzhan\多进程-web服务器\web_server_WSGI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.元类mysql语句映射" />
+        <item itemvalue="Python.mini_frame" />
+        <item itemvalue="Python.web_server_WSGI" />
+        <item itemvalue="Python.带有参数的装饰器" />
+        <item itemvalue="Python.闭包demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fbc1ccd-e30a-4a9b-b8c5-7e3908ad8d78" name="Default Changelist" comment="" />
+      <created>1585661719678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585661719678</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Apr-1-home">
+      <created>1585695237034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585695237034</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Apr-7-home-branch">
+      <created>1586214142252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586214142252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Apr-8-home-branch">
+      <created>1586300803489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586300803489</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Apr-8-home-branch">
+      <created>1586300887386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586300887386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Apr-9-home">
+      <created>1586386913161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586386913161</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Apr-8-home-branch">
+      <created>1586386978580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586386978580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Apr-10-home">
+      <created>1586472515873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586472515873</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Apr-10-home">
+      <created>1586597565244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586597565244</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Apr-13-home">
+      <created>1586733549316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586733549316</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Apr-15-home">
+      <created>1586903931059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586903931059</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Apr-17-home">
+      <created>1587078959584</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587078959584</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Apr-19-home">
+      <created>1587254840885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587254840885</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Apr-23-home">
+      <created>1587596108202</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587596108202</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Apr-24-home">
+      <created>1587682274275</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587682274275</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Apr-26-home">
+      <created>1587856244258</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587856244258</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Apr-27-home">
+      <created>1587941947916</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587941947916</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Apr-30-home">
+      <created>1588208141721</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588208141721</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Mar-2-home">
+      <created>1588390067055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588390067055</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Mar-6-home">
+      <created>1588720988420</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588720988420</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Mar-7-home">
+      <created>1588804521657</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1588804521657</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Apr-1-home" />
+    <MESSAGE value="Apr-7-home-branch" />
+    <MESSAGE value="Apr-9-home" />
+    <MESSAGE value="Apr-8-home-branch" />
+    <MESSAGE value="Apr-10-home" />
+    <MESSAGE value="Apr-13-home" />
+    <MESSAGE value="Apr-15-home" />
+    <MESSAGE value="Apr-17-home" />
+    <MESSAGE value="Apr-19-home" />
+    <MESSAGE value="Apr-23-home" />
+    <MESSAGE value="Apr-24-home" />
+    <MESSAGE value="Apr-26-home" />
+    <MESSAGE value="Apr-27-home" />
+    <MESSAGE value="Apr-30-home" />
+    <MESSAGE value="Mar-2-home" />
+    <MESSAGE value="Mar-6-home" />
+    <MESSAGE value="Mar-7-home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mar-7-home" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="63" y="285" key="#Notifications" timestamp="1586300271335">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="63" y="285" key="#Notifications/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586300271335" />
+    <state x="679" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586817521305">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="679" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586817521305" />
+    <state x="598" y="128" key="CommitChangelistDialog2" timestamp="1588804520609">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1322" y="128" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587682272775" />
+    <state x="598" y="128" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588804520609" />
+    <state x="598" y="132" key="CommitChangelistDialog2/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695235982" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1586388064143">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586388064143" />
+    <state width="1899" height="246" key="GridCell.Tab.0.bottom" timestamp="1588773516588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1440.184.1440.870@0.0.1920.1050" timestamp="1586160028002" />
+    <state width="1899" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588773516588" />
+    <state width="1899" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695809685" />
+    <state width="1899" height="246" key="GridCell.Tab.0.center" timestamp="1588773516588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="171" key="GridCell.Tab.0.center/0.0.1920.1050/-1440.184.1440.870@0.0.1920.1050" timestamp="1586160028002" />
+    <state width="1899" height="246" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588773516588" />
+    <state width="1899" height="375" key="GridCell.Tab.0.center/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695809685" />
+    <state width="1899" height="246" key="GridCell.Tab.0.left" timestamp="1588773516588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="171" key="GridCell.Tab.0.left/0.0.1920.1050/-1440.184.1440.870@0.0.1920.1050" timestamp="1586160028002" />
+    <state width="1899" height="246" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588773516588" />
+    <state width="1899" height="375" key="GridCell.Tab.0.left/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695809685" />
+    <state width="1899" height="246" key="GridCell.Tab.0.right" timestamp="1588773516588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="171" key="GridCell.Tab.0.right/0.0.1920.1050/-1440.184.1440.870@0.0.1920.1050" timestamp="1586160028002" />
+    <state width="1899" height="246" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588773516588" />
+    <state width="1899" height="375" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695809685" />
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1586598241269">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586598241269" />
+    <state width="1899" height="376" key="GridCell.Tab.1.center" timestamp="1586598241269">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586598241269" />
+    <state width="1899" height="376" key="GridCell.Tab.1.left" timestamp="1586598241269">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586598241269" />
+    <state width="1899" height="376" key="GridCell.Tab.1.right" timestamp="1586598241269">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="376" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586598241269" />
+    <state x="376" y="188" key="SettingsEditor" timestamp="1588498342467">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="376" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588498342467" />
+    <state x="552" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588804565897">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1368" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587682280103" />
+    <state x="552" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588804565897" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585695274944" />
+    <state x="733" y="259" key="VcsDiffUtil.ChangesDialog" timestamp="1586387367327">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="733" y="259" key="VcsDiffUtil.ChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586387367327" />
+    <state x="640" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1586382261698">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="354" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586382261697" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.184.1440.900@0.0.1920.1080" timestamp="1585691284497" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585969439941" />
+    <state x="753" y="197" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586384661406">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="753" y="197" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586384661406" />
+    <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588771701843">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588771701843" />
+    <state x="662" y="126" width="596" height="798" key="find.popup" timestamp="1586589473594">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="662" y="126" width="596" height="798" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586589473594" />
+    <state x="744" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1586387296573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="744" y="312" key="git4idea.merge.GitMergeDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1586387296573" />
+    <state x="666" y="316" key="git4idea.merge.GitPullDialog" timestamp="1588494804845">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1254" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1587133497898" />
+    <state x="666" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588494804845" />
+    <state x="800" y="296" key="refactoring.ChangeSignatureDialog" timestamp="1588200406416">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="800" y="296" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588200406416" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588082707370">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1588082707370" />
+  </component>
+</project>
