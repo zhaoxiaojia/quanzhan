@@ -6,44 +6,61 @@
 	<style type="text/css">
 		.new-list{
 			width: 600px;
-			height: 292px;
-			border: 1px solid #666;
+			height: 290px;
+			border: 1px solid #ddd;
 			margin: 50px auto 0;
 			overflow: hidden;
 		}
-		.new-list-title,.new-list-msg{
-			width: 560px;
-			background-color: cyan;
-		}
+
 		.new-list-title{
+			width: 560px;
 			border-bottom: 1px solid #666;
 			height: 50px;
 			margin: 0 auto;
 		}
-
+		
 		.new-list-title h3{
 			float: left;
-			font:bold 18px/50px 'Mircosoft Yahei';
+			font:normal 18px/50px 'Mircosoft Yahei';
 			padding:0 10px;
 			border-bottom: 2px solid red;
 			margin: 0;
 		}
+		.new-list-title a{
+			float: right;
+			font:normal 15px/50px 'Microsoft Yahei';
+			color:#666;
+			text-decoration:none;
+		}
+
 
 		.new-list-msg{
-			margin: 0 auto;
+			padding: 0;
+			width: 560px;
+			list-style: none;
+			margin: 8px auto 0;
 		}
-		.new-list-msg ul{
-			margin: 0;
+		.new-list-msg li{
+			height:38px;
+			border-bottom:1px solid #f0f0f0;
+			background:url(images/point.gif) left center no-repeat;	
 
 		}
 		.new-list li a{
+			float: left;
 			text-decoration: none;
-			background-color: gold;
-			font:bold 14px/40px 'Mircosoft Yahei';
+			color: #000;
+			text-indent: 30px;
+			/*background-color: gold;*/
+			font:bold 14px/38px 'Mircosoft Yahei';
+		}
+		.news_list li a:hover{
+			color:#f80;
 		}
 		.new-list li span{
 			float: right;
-			font:bold 14px/40px 'Mircosoft Yahei';
+			font:bold 14px/38px 'Mircosoft Yahei';
+			color:#000;
 		}
 	}
 }
@@ -53,17 +70,17 @@
 	<div class="new-list">
 		<div class="new-list-title">
 			<h3>新闻列表</h3>
+			<a href="#">更多 &gt;&gt;</a>
 		</div>
-		<div class="new-list-msg">
-			<ul>
-				<li><a href="#">震惊！贪玩蓝月百倍回收装备</a><span>2020-5-13</span></li>
-				<li><a href="#">大家好，我是砸砸辉</a><span>2020-5-13</span></li>
-				<li><a href="#">油腻的师姐，你在哪里</a><span>2020-5-13</span></li>
-				<li><a href="#">江南江南温州皮革皮革场，倒闭了</a><span>2020-5-13</span></li>
-				<li><a href="#">全网最大线上赌场上线了，性感荷官，在线发牌</a><span>2020-5-13</span></li>
-				<li><a href="#">南昌一男子竟半夜做出如此神人共愤之事</a><span>2020-5-13</span></li>
-			</ul>
-		</div>
+		<ul class="new-list-msg">
+			<li><a href="#">震惊！贪玩蓝月百倍回收装备</a><span>2020-5-13</span></li>
+			<li><a href="#">大家好，我是砸砸辉</a><span>2020-5-13</span></li>
+			<li><a href="#">油腻的师姐，你在哪里</a><span>2020-5-13</span></li>
+			<li><a href="#">江南江南温州皮革皮革场，倒闭了</a><span>2020-5-13</span></li>
+			<li><a href="#">全网最大线上赌场上线了，性感荷官，在线发牌</a><span>2020-5-13</span></li>
+			<li><a href="#">南昌一男子竟半夜做出如此神人共愤之事</a><span>2020-5-13</span></li>
+		</ul>
+
 	</div>
 </body>
 </html>
