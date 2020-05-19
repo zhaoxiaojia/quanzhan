@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oBtn = document.getElementById('btn1');
+			var oDiv = document.getElementById('box1');
+
+			oBtn.onclick = function(){
+				if (oDiv.style.display =='none'){
+					oDiv.style.display = 'block';
+				}else{
+					oDiv.style.display = 'none';
+				}
+			}
+		}
+	</script>
+	<style type="text/css">
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: gold;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" name="" value="切换" id="btn1">
+	<div class="box" id="box1"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		// 通过类实例化来创建数组
+		var aList1 = new Array(1,2,3);
+		// 通过直接量的方式创建数组
+		var aList2 = ['a',2,3];
+		// 通过lengeth 获取数组成员的个数
+		// alert(aList2.length);
+
+		// alert(aList2[0]);
+		// 通过push方法在数组后面添加成员
+		aList2.push('b');
+		// alert(aList2);
+		// 通过pop方法在数组后面删除成员
+		aList2.pop();
+		// alert(aList2);
+
+		// 通过shift方法在数组前面添加成员
+		aList2.shift('b');
+		// alert(aList2);
+		// 通过unshift方法在数组前面删除成员
+		aList2.unshift();
+		// alert(aList2);
+		// 翻转数组
+		aList2.reverse();
+		// alert(aList2);
+
+		var aList3 = ['a','b','c','d','a','b']
+		// alert(aList3.indexOf('b'));
+
+		aList3.splice(1,0,'e');
+		// alert(aList3); // 弹出 a,e,b,c,d,a,b
+
+		aList3.splice(1,2,'f','g');// 弹出a,f,g,c,d,a,b
+		// alert(aList3)
+
+		// join方法有返回值 不会改动原数组
+		alert(aList3.join('-'));
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

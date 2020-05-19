@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var iNum1 = 2;
+			var sNum1 = '2';
+			// 此时使用 == 判断结果为相等 为bug 应该使用 ===
+			if (iNum1===sNum1){
+				alert('相等');
+			}else{
+				alert('不相等');
+			}
+
+			if(3!=4){
+				alert(true);
+			}else{
+				alert(false);
+			}
+
+			if (4>3){
+				alert('>');
+			}else{
+				alert('<');
+			}
+			// 多个条件运算中，都是true 结果才是true
+			if (4>3 && 5>6){
+				alert('都大于')
+			}else{
+				alert('不是都大于')
+			}
+			// 多个条件运算中，都是false 结果才是false
+			if (4>3 || 5>6){
+				alert('部分大于')
+			}else{
+				alert('都小于')
+			}
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
