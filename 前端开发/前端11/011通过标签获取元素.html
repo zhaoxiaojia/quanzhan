@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+
+			// 通过标签名称获取li元素，生成一个选择集 赋值给aLi
+			var aLi = document.getElementsByTagName('li')
+			// 读取选择集内元素的个数
+			// alert(aLi.length);
+			// 给单独一个设置背景色
+			// aLi[0].style.backgroundColor='gold';
+			// 不能给选择集设置样式属性
+			// aLi.style.backgroundColor = 'gold';
+			// var iLen = aLi.length;
+			// for(var i = 0; i < iLen; i++){
+			// 	aLi[i].style.backgroundColor = 'pink'
+			// }
+
+			// 选中list下面的li标签
+			var oUl = document.getElementById('list');
+			var aLi2 = oUl.getElementsByTagName('li');
+			// alert(aLi2.length)
+			var iLen2 = aLi2.length
+			for(var i = 0;i<iLen2;i++){
+				if (i%2 == 0){
+					aLi2[i].style.backgroundColor = 'pink';
+				}
+			}
+		}	
+	</script>
+
+</head>
+<body>
+	<ul id="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+
+	<ul id="list2">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+
+</body>
+</html>

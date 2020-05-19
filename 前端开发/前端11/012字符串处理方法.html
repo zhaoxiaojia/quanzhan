@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var iNum1 = 12;
+			var sTr = 'abc';
+			var iNum2 = '24';
+			var sNum2 = '24';
+			// 数字和字符串相加 等同于字符串拼接
+			// alert(iNum1+iNum2); // 弹出1224
+
+			// alert(iNum2+sTr);
+
+			var sTr2 = '12.35';
+			// 将字符串的小数转化成整数
+			// alert(parseInt(sTr2)); //弹出12
+			// 将字符串的小数转化成浮点数
+			// alert(parseFloat(sTr2)); // 弹出12.35
+
+			var sTr3 = '2017-7-18';
+			var aRr = sTr3.split('-')
+			// alert(aRr.length); // 弹出[2017,7,18]
+			var aRr2 = sTr3.split('')
+			// alert(aRr2); // 弹出[2,0,1,7,-,7,-,1,8]
+			var sTr4 = '#div';
+			var sTr5 = sTr4.charAt(0)
+			// alert(sTr5);
+			var sTr6 = 'abcdefmicrosoft';
+			var iNum3 = sTr6.indexOf('microsoft')
+			var iNum4 = sTr6.indexOf('yehei')
+			// alert(iNum3); // 存在弹出 下标6
+			// alert(iNum4); // 不存在弹出 -1
+
+			var sTr7 = 'abcdef123456edfg';
+			var sTr8 = sTr7.substring(6,12);
+			var sTr9 = sTr4.substring(1);
+			// alert(sTr8);
+			// alert(sTr9);
+			var sTr10 = 'abcdef';
+			alert(sTr10.toUpperCase());
+			// toLowerCase() 该方法将字符串中的元素转为小写
+			var sTr12 = '123sadfwqrjlkzjncxv';
+			var sTr13 = sTr12.split('').reverse().join('');
+			alert(sTr13);
+
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
