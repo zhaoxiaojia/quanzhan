@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oBody = document.getElementById('body1');
+			var iNum1 = 12;
+			// alert会阻止程序的运行
+			// alert(iNum1)
+			console.log(iNum1)
+			oBody.style.backgroundColor = 'gold';
+			var iNum2 = 24;
+			// alert(iNum2);
+			console.log(iNum2)
+			setInterval(function(){
+				iNum2++;
+				console.log(iNum2)
+			},100)
+		}
+	</script>
+</head>
+<body id="body1">
+	
+</body>
+</html>

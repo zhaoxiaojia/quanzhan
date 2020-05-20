@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		var iPi = Math.PI;
+		var iNum = Math.random();
+		var arr = [];
+		for(var i=0;i<20;i++){
+			// Math.random 只能返回从0 到1 的随机数
+			var iNum = Math.random();
+			arr.push(iNum);
+		}
+
+		console.log(arr)
+		// 向下取整
+		// alert(Math.floor(5.6)) // 弹出5
+		// 向上取整
+		// alert(Math.ceil(5.6)) // 弹出6
+
+		// 10-20随机数
+		var iN1 = 10;
+		var iN2 = 20;
+		var aArr2 = [];
+		for (var i = 0;i<30;i++){
+			//
+			var iNum = Math.floor((iN2-iN1+1)*Math.random()+iN1);
+			aArr2.push(iNum);
+		}
+		console.log(aArr2)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

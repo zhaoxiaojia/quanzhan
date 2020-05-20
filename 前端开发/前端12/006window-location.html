@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			// 存储上一个跳转过来的地址
+			// var sUrl = document.referrer; // 伪代码
+			var oBtn = document.getElementById('btn01');
+			oBtn.onclick = function(){
+				window.location.href = sUrl;
+				window.location.href = 'https://www.baidu.com';
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" name="" value="跳转" id="btn01">
+</body>
+</html>

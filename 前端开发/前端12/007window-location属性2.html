@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oBody = document.getElementById('body1');
+			// var sData = window.location.search;
+			var sHash = window.location.hash;
+			alert(sHash);
+			if(sData!=''){
+				var aRr = sData.split('=');
+				var iNum = aRr[1]
+				if (iNum == 1) {
+					oBody.style.backgroundColor = 'gold';
+				}else if (iNum == 2){
+					oBody.style.backgroundColor = 'lightgreen';
+				}else if (iNum == 3){
+					oBody.style.backgroundColor = 'pink';
+				}
+			}
+		}
+	</script>
+</head>
+<body id='body1'>
+</body>
+</html>
