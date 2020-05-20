@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			function fmMyAlert(){
+				alert('Hello World!');
+			}
+
+			// 只执行一次的定时器，第一个参数是函数名，或者匿名函数，第二个参数是时间，单位是毫秒，不写单位
+			// var timer1 = setTimeout(fmMyAlert,2000);
+			// 关闭只执行一次的定时器
+			// clearTimeout(timer1)
+			// 反复执行的定时器
+			var timer2 = setInterval(fmMyAlert,1000);
+			// 匿名写法使用定时器
+			var timer3 = setInterval(function{
+				alert('hello world!')
+			},1000)
+			// clearInterval(timer2);
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

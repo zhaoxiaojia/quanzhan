@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oDiv = document.getElementById('div1');
+			function fnTimeGo(){
+				var sNow = new Date();
+				var iYear = sNow.getFullYear();
+				var iMonth = sNow.getMonth() + 1;
+				var iDate = sNow.getDate();
+				var iWeek = sNow.getDay();
+				var iHour = sNow.getHours();
+				var iMinute = sNow.getMinutes();
+				var iSecond = sNow.getSeconds();
+				var sTr = '当前是时间是：'+iYear+'年'+iMonth+'月'+iDate+'日'+fnToWeek(iWeek)+' '+fnToDou(iHour)+':'+fnToDou( iMinute)+':'+fnToDou(iSecond);
+				oDiv.innerHTML = sTr;
+			}
+			fnTimeGo();
+			setInterval(fnTimeGo,1000);
+			function fnToWeek(n){
+				if (n==0) {
+					return '星期日';
+				}else if(n==1){
+					return '星期一';
+				}else if(n==2){
+					return '星期二'
+				}else if(n==3){
+					return '星期三';
+				}else if(n==4){
+					return '星期四';
+				}else if(n==5){
+					return '星期五';
+				}else{
+					return '星期六';
+				}
+
+			}
+			function fnToDou(n){
+				if (n<10){
+					return '0'+n;
+				}else{
+					return n;
+				}
+			}
+		}
+	</script>
+	<style type="text/css">
+		div{
+			text-align: center;
+			font-size: 30px;
+			color: pink;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="div1"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		// 函数外部定义是全局变量 函数内部及外部都可访问
+		var iNum1 = 12;
+		// var iNum1 = 14;
+		function fnMyAlert(){
+			// 函数内部定义的是局部变量
+			var iNum2 = 24;
+			alert(iNum1);
+			iNum1 += 10;
+		}
+
+		function fnMyAlert2(){
+			alert(iNum1);
+		}
+		fnMyAlert(); // 弹出12 
+		fnMyAlert2(); // 弹出22
+		// alert(iNum2); // 无法访问函数内部变量
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oCon = document.getElementById('content')
+			var timer = setTimeout(function(){
+				oCon.style.display = 'block';
+			},5000);
+		}
+	</script>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.con{
+			display: none;
+		}
+		.box{
+
+			width: 300px;
+			height: 300px;
+			border: 1px solid #eee;
+			background-color: gold;
+			z-index: 9999;
+			position: fixed;
+			top: 200px;
+			left: 200px;
+
+		}
+		.box h2,{
+			color: #fff;
+		}
+		.mask{
+			position: fixed;
+			width:100%;
+			height:100%;
+			background: #000;
+			opacity: 0.5;
+			z-index: 9998;
+			left: 0;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+	<h1>这是一个极其没有质量的html</h1>
+	<div class="con" id="content">
+		<div class="box">
+			<h2>油腻的师姐你在那里</h2>
+			<p>这是你没有玩过的全新版本</p>
+		</div>
+		<div class="mask"></div>
+	</div>
+</body>
+</html>

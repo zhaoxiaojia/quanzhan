@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		// 封闭函数的写法
+		(function (){
+			alert('hello world!');
+		})();
+
+		// 封闭函数的第二种写法
+		// !function(){
+		// 	alert('hello world!');
+		// }();
+		// 封闭函数
+		// ~function(){
+		// 	alert('hello world!')
+		// }
+		// 
+		var iNum1 = 12;
+		function fnMyAlert2(){
+			alert('hello world!');
+		}
+		// 可以在封闭函数前加一个 ; 可以避免js压缩时出错
+		(function(){
+			var iNum1 = 24;
+			function fnMyAlert2(){
+				alert('hello hello!')
+			}
+			alert(iNum1);
+			fnMyAlert2();
+		})();
+		// alert(iNum1);
+		// fnMyAlert2();
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
