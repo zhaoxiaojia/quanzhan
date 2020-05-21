@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// var $div = $('div');
+			// $div.css({'background-color':'gold'});
+
+			// 将多有div标签背景设置成gold
+			$('div').css({'background-color':'gold'});
+			// 将包含p标签的div字体设置成30px
+			$('div').has('p').css({'font-size':'30px'});
+			// 将第5个div标签设置 首行缩进
+			$('div').eq(4).css({'text-indent':'40px'});
+			$('div').eq(4).prev().css({'color':'red'});
+			$('div').find('.tip').css({'font-size':'30px'});
+
+
+		});
+	</script>
+</head>
+<body>
+	<div>1</div>
+	<div><p>2</p></div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+	<div>7</div>
+	<div><span>8</span><span class="tip">9</span></div>
+</body>
+</html>

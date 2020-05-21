@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#btn').click(function(){
+				// if($('.box').hasClass('color1')){
+				// 	$('.box'),removeClass('color1');
+				// }else{
+				// 	$('.box').addClass('color1');
+				// }
+				$('.box').toggleClass('color1');
+				$('.box').toggleClass('color2');
+			})
+		});
+	</script>
+	<style type="text/css">
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: gold;
+		}
+		.color1{
+			background-color: green;
+		}
+		.color2{
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" name="" value="切换样式" id="btn">
+	<div class="box">div元素</div>
+</body>
+</html>

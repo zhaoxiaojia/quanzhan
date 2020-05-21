@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// 通过id选择标签
+			var $div = $('#div1');
+			$div.css({'color':'red'})
+			// 通过类选择标签
+			var $div2 = $('.box');
+			$div2.css({'color':'green'})
+			// 通过标签选择
+			var $li = $('.list li')
+			// 一下两条均会执行
+			// $li.css({'background-color':'pink'})
+			$li.css({'backgroundColor':'pink'})
+
+		});
+	</script>
+<!-- 	<style type="text/css">
+		#div1{
+			color: red;
+		}
+		.box{
+			color: green;
+		}
+		.list li{
+			background-color: pink;
+		}
+	</style> -->
+</head>
+<body>
+	<div id="div1">这是第一个div</div>
+	<div class="box">这是第二个div</div>
+	<div class="box">这是第三个div</div>
+	<ul class="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+</body>
+</html>
