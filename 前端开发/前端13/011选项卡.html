@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var $btn = $('.btns input');
+			var $div = $('cons div');
+			$btn.click(function(){
+				// this 表示当前点击的对象
+				$(this).addClass('current');
+			});
+		});
+	</script>
+	<style type="text/css">
+		.btns input{
+			width: 100px;
+			height: 40px;
+			background-color: #ddd;
+			border: 0;
+		}
+		.btns .current{
+			background-color: gold;
+		}
+		.cons div{
+			width: 500px;
+			height: 300px;
+			background-color: gold;
+			display: none;
+			text-align: center;
+			line-height: 300px;
+			font-size: 30px;
+		}
+		.cons .active{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="btns">
+		<input type="button" name="" value="01" class="current">
+		<input type="button" name="" value="02">
+		<input type="button" name="" value="03">
+	</div>
+	<div class="cons">
+		<div class="active">这是选项卡1的内容</div>
+		<div>这是选项卡2的内容</div>
+		<div>这是选项卡3的内容</div>
+	</div>
+</body> 
+</html>
