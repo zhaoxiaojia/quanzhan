@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$menu = $('.menu');
+			$(window).scroll(function(){
+
+				var iNum = $(document).scrollTop();
+				if(iNum>200){
+					$menu.css({
+						'position':'fixed',
+						'left':'50%',
+						'top':0,
+						'margin-left':-480,
+					});
+				}else{
+					$menu.css({
+						'position':'static',
+						'margin-left':'auto'
+					});
+				}
+			});
+		});
+	</script>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		.banner{
+			width: 960px;
+			height: 200px;
+			background-color: cyan;
+			margin: 0 auto;
+		}
+		.menu{
+			width: 960px;
+			height: 80px;
+			background-color: gold;
+			margin:0 auto;
+			text-align: center;
+			line-height: 80px;
+		}
+		p{
+			text-align: center;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="banner"></div>
+	<div class="menu">菜单</div>
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p>文档内容</p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+</body>
+</html>

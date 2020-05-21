@@ -7,12 +7,13 @@
 	<script type="text/javascript">
 		$(function(){
 			var $btn = $('.btns input');
-			var $div = $('.cons div');
+			var $slides = $('.cons .slides');
 			$btn.click(function(){
 				// this 表示当前点击的对象
 				// siblings()方法反选已选中的对象
 				$(this).addClass('current').siblings().removeClass('current');
-				$div.eq($(this).index()).addClass('active').siblings().removeClass('active');
+				// $div.eq($(this).index()).addClass('active').siblings().removeClass('active');
+				$slides.stop().animate({'left':-500*$(this).index()});
 			});
 		});
 	</script>
@@ -22,21 +23,32 @@
 			height: 40px;
 			background-color: #ddd;
 			border: 0;
+			outline: none;
 		}
 		.btns .current{
 			background-color: gold;
 		}
-		.cons div{
+		.cons .slides div{
 			width: 500px;
 			height: 300px;
 			background-color: gold;
-			display: none;
 			text-align: center;
 			line-height: 300px;
 			font-size: 30px;
+			float: left;
 		}
-		.cons .active{
-			display: block;
+		.cons{
+			width: 500px;
+			height: 300px;
+			overflow: hidden;
+			position: relative;
+		}
+		.slides{
+			width: 1500px;
+			height: 300px;
+			position: absolute;
+			top: 0;
+			left: 0;
 		}
 	</style>
 </head>
@@ -47,9 +59,11 @@
 		<input type="button" name="" value="03">
 	</div>
 	<div class="cons">
-		<div class="active">这是选项卡1的内容</div>
-		<div>这是选项卡2的内容</div>
-		<div>这是选项卡3的内容</div>
+		<div class="slides">
+			<div>这是选项卡1的内容</div>
+			<div>这是选项卡2的内容</div>
+			<div>这是选项卡3的内容</div>
+		</div>
 	</div>
 </body> 
 </html>
