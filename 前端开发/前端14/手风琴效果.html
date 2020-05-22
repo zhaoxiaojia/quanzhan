@@ -12,41 +12,75 @@
 				$(this).prevAll().each(function(){
 					$(this).animate({'left':21*$(this).index()})
 				});
+				$(this).nextAll().each(function(){
+					$(this).animate({'left':727-21*(5-$(this).index())
+					})
+				});
 			});
 		});
 	</script>
 	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-size: 12px;
+		}
 		#accordion{
-			width: 802px;
-			height: 348px;
+			width: 727px;
+			height: 350px;
+			margin: 100px auto 0 auto;
+			position: relative;
+			border: 1px solid #ccc;
 			overflow: hidden;
 		}
-		#accordion ul{
-			width: 5000px;
-			height: 348px;
-
-		}
-		li{
-			width: 694px;
-			height: 346px;
-			border: 1px solid #efefef;
+		ul{
 			list-style: none;
-			float: left;
+		}
+
+		li{
+			width: 643px;
+			height: 350px;
+			position: absolute;
+			background: #fff;
 		}
 		li span{
-			writing-mode:vertical-rl;
+			display: block;
+			width: 20px;
+			height: 350px;
+			position: absolute;
+			float: left;
+			text-align: center;
+			color: #fff;
+			padding-top: 5px;
+			cursor: pointer;
 		}
+		img{
+			display: block;
+			float: right;
+		}
+		.bar01{left:0px;}
+		.bar02{left:643px;}
+		.bar03{left:664px;}
+		.bar04{left:685px;}
+		.bar05{left:706px;}
+		.bar01 span{background:#09E0B5;}
+		.bar02 span{background:#3D7FBB;}
+		.bar03 span{background:#5CA716;}
+		.bar04 span{background:#F28B24;}
+		.bar05 span{background:#7C0070;}
 	</style>
 
 </head>
 <body>
 	<div id="accordion">
 		<ul>
-			<li class="bar01"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
-			<li class="bar02"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
-			<li class="bar03"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
-			<li class="bar04"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
-			<li class="bar05"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+			<li class="bar01"><span>非洲景色</span><img src="images/001.jpg" alt="汽车图片"></li>
+			<li class="bar02"><span>非洲景色</span><img src="images/002.jpg" alt="汽车图片"></li>
+			<li class="bar03"><span>非洲景色</span><img src="images/003.jpg" alt="汽车图片"></li>
+			<li class="bar04"><span>非洲景色</span><img src="images/004.jpg" alt="汽车图片"></li>
+			<li class="bar05"><span>非洲景色</span><img src="images/005.jpg" alt="汽车图片"></li>
 		</ul>
 	</div>
 </body>
