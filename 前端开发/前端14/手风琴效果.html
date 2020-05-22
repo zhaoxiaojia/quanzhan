@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var $li = $('#accordion li');
+			$li.click(function(){
+				$(this).animate({'left':21*$(this).index()});
+				$(this).prevAll().each(function(){
+					$(this).animate({'left':21*$(this).index()})
+				});
+			});
+		});
+	</script>
+	<style type="text/css">
+		#accordion{
+			width: 802px;
+			height: 348px;
+			overflow: hidden;
+		}
+		#accordion ul{
+			width: 5000px;
+			height: 348px;
+
+		}
+		li{
+			width: 694px;
+			height: 346px;
+			border: 1px solid #efefef;
+			list-style: none;
+			float: left;
+		}
+		li span{
+			writing-mode:vertical-rl;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="accordion">
+		<ul>
+			<li class="bar01"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+			<li class="bar02"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+			<li class="bar03"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+			<li class="bar04"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+			<li class="bar05"><span>非洲景色</span><img src="images/camaro.jpg" alt="汽车图片"></li>
+		</ul>
+	</div>
+</body>
+</html>
