@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// 在获得焦点的时候触发
+			// $('#input1').focus(function(){
+			// 	alert('获得焦点')
+			// });
+
+			// 获取焦点
+			$('#input1').focus();
+			$('#input1').blur(function(){
+				// 获取input元素里面的value值
+				var sVal = $(this).val()
+				// alert(sVal)
+			});
+			$('#form1').submit(function(){
+				// alert('提交');
+				// 阻止默认行为
+				return false
+			});
+		});
+	</script>
+</head>
+<body>
+	<form id="form1" action="https://www.baidu.com">
+		<input type="text" name="date1" id="input1">
+		<input type="text" name="date2" id="input2">
+		<input type="submit" name="" id="sub" value="提交">
+	</form>
+</body>
+</html>
