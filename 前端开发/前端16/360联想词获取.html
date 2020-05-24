@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="slide/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$$.ajax({
+			url: 'https://sug.so.360.cn/suggest?',
+			type: 'GET',
+			dataType: 'jsonp',
+			data: {'word':'d'},
+		})
+		.done(function(data) {
+			console.log(data);
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

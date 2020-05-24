@@ -871,7 +871,7 @@ function Sizzle( selector, context, results, seed ) {
 					// Prefix every selector in the list
 					groups = tokenize( selector );
 					i = groups.length;
-					nidselect = ridentifier.test( nid ) ? "#" + nid : "[id='" + nid + "']";
+					nidselect = ridentifier.test( nid ) ? "javascript:;" + nid : "[id='" + nid + "']";
 					while ( i-- ) {
 						groups[i] = nidselect + " " + toSelector( groups[i] );
 					}
@@ -2669,7 +2669,7 @@ support.sortDetached = assert(function( div1 ) {
 // http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
 if ( !assert(function( div ) {
 	div.innerHTML = "<a href='#'></a>";
-	return div.firstChild.getAttribute("href") === "#" ;
+	return div.firstChild.getAttribute("href") === "javascript:;" ;
 }) ) {
 	addHandle( "type|href|height|width", function( elem, name, isXML ) {
 		if ( !isXML ) {

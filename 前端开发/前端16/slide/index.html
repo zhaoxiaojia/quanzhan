@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-首页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$.ajax({
+				url: 'js/data.json',
+				type: 'get',
+				dataType: 'json'
+			})
+			.done(function(dat){
+				alert(dat.name)
+				$('.user_login_btn').hide();
+				$('.user_info em').html(dat.name);
+				$('.user_info').show();
+			})
+			.fail(function() {
+				alert('服务器超时！')
+			})
+		});
+	</script>
+</head>
+<body>
+	<!-- 页面顶部 -->
+	<div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎你来到天天生鲜！</div>
+			<div class="top_user_info fr">
+				<div class="user_login_btn fl">
+					<a href="">登录</a>
+					<span>|</span>
+					<a href="">注册</a>
+				</div>
+
+				<div class="user_info fl">
+					欢迎您：<em>张三</em>
+				</div>
+
+				<div class="user_link fl">
+					<span>|</span>
+					<a href="">我的购物车</a>
+					<span>|</span>
+					<a href="">我的订单</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo、搜索框、购物车 -->
+	<div class="center_con">
+		<a href="index.html" class="logo fl"><img src="images/logo.png" alt="天天生鲜网站logo"></a>
+		<div class="search_con fl">
+			<form>
+				<!-- 默认提示文字 搜索 -->
+				<input type="text" name="" class="input_txt fl" placeholder="搜索">
+				<input type="submit" name="" class="input_sub fl" value="搜索" />
+			</form>
+		</div>
+		<div class="chart_con fr">
+			<a href="#" class="fl">我的购物车</a>
+			<span class="fr">5</span>
+		</div>
+	</div>
+	<!-- 主菜单 -->
+	<div class="main_menu_con">
+		<div class="main_menu">
+			<h2 class="fl">全部商品分类</h2>
+			<ul class="fl">
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">手机生鲜</a></li>
+				<li><a href="javascript:;">抽奖</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 二级菜单、幻灯片、广告 -->
+	<div class="center_con2">
+		<ul class="sub_menu fl">
+			<li><a href="javascript:;" >新鲜水果</a></li>
+			<li><a href="javascript:;" class="icon02">海鲜水产</a></li>
+			<li><a href="javascript:;" class="icon03">猪牛羊肉</a></li>
+			<li><a href="javascript:;" class="icon04">禽类蛋品</a></li>
+			<li><a href="javascript:;" class="icon05">新鲜蔬菜</a></li>
+			<li><a href="javascript:;" class="icon06">速冻食品</a></li>
+		</ul>
+		<div class="slide fl">
+			<ul class="slide_list">
+				<li><a href="javascript:;"><img src="images/slide.jpg" alt="幻灯片" /></a></li>
+				<li><a href="javascript:;"><img src="images/slide02.jpg" alt="幻灯片" /></a></li>
+				<li><a href="javascript:;"><img src="images/slide03.jpg" alt="幻灯片" /></a></li>
+				<li><a href="javascript:;"><img src="images/slide04.jpg" alt="幻灯片" /></a></li>
+			</ul>
+
+			<div class="prev"></div>
+			<div class="next"></div>
+
+			<ul class="points">
+<!-- 				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>		 -->
+			</ul>
+
+		</div>
+		<div class="adv fr">
+			<a href="javascript:;"><img src="images/adv01.jpg" alt="'广告图片"></a>
+			<a href="javascript:;"><img src="images/adv02.jpg" alt="'广告图片"></a>
+
+		</div>
+	</div>
+
+	<!-- 内容主体 -->
+	<div class="common_model">
+		<div class="common_title">
+			<h3>新鲜水果</h3>
+			<ul>
+				<li><span>|</span></li>
+				<li><a href="javascript:;">鲜芒</a></li>
+				<li><a href="javascript:;">加州提子</a></li>
+				<li><a href="javascript:;">亚马逊牛油果</a></li>
+			</ul>
+			<a href="javascript:;" class="more fr">查看更多 &gt;</a>
+		</div>
+		<div class="common_goods_con">
+			<div class="common_banner fl">
+				<a href="javascript:;"><img src="images/banner01.jpg" alt="广告位"></a>
+			</div>
+			<ul class="common_goods_list fl">
+				<li>
+					<h4>草莓</h4>
+					<a href="javascript:;"><img src="images/goods/goods003.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.00</div>
+				</li>
+				<li>
+					<h4>泰国柠檬</h4>
+					<a href="javascript:;"><img src="images/goods/goods001.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>维多利亚葡萄</h4>
+					<a href="javascript:;"><img src="images/goods/goods002.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>进口奇异果</h4>
+					<a href="javascript:;"><img src="images/goods/goods012.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="common_model">
+		<div class="common_title">
+			<h3>新鲜水果</h3>
+			<ul>
+				<li><a href="javascript:;">鲜芒</a></li>
+				<li><a href="javascript:;">加州提子</a></li>
+				<li><a href="javascript:;">亚马逊牛油果</a></li>
+			</ul>
+			<a href="javascript:;" class="more fr">查看更多 &gt;</a>
+		</div>
+
+		<div class="common_goods_con">
+			<div class="common_banner fl">
+				<a href="javascript:;"><img src="images/banner02.jpg" alt="广告位"></a>
+			</div>
+			<ul class="common_goods_list fl">
+				<li>
+					<h4>草莓</h4>
+					<a href="javascript:;"><img src="images/goods/goods003.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.00</div>
+				</li>
+				<li>
+					<h4>泰国柠檬</h4>
+					<a href="javascript:;"><img src="images/goods/goods001.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>维多利亚葡萄</h4>
+					<a href="javascript:;"><img src="images/goods/goods002.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>进口奇异果</h4>
+					<a href="javascript:;"><img src="images/goods/goods012.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="common_model">
+		<div class="common_title">
+			<h3>新鲜水果</h3>
+			<ul>
+				<li><a href="javascript:;">鲜芒</a></li>
+				<li><a href="javascript:;">加州提子</a></li>
+				<li><a href="javascript:;">亚马逊牛油果</a></li>
+			</ul>
+			<a href="javascript:;" class="more fr">查看更多 &gt;</a>
+		</div>
+
+		<div class="common_goods_con">
+			<div class="common_banner fl">
+				<a href="javascript:;"><img src="images/banner03.jpg" alt="广告位"></a>
+			</div>
+			<ul class="common_goods_list fl">
+				<li>
+					<h4>草莓</h4>
+					<a href="javascript:;"><img src="images/goods/goods003.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.00</div>
+				</li>
+				<li>
+					<h4>泰国柠檬</h4>
+					<a href="javascript:;"><img src="images/goods/goods001.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>维多利亚葡萄</h4>
+					<a href="javascript:;"><img src="images/goods/goods002.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>进口奇异果</h4>
+					<a href="javascript:;"><img src="images/goods/goods012.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="common_model">
+		<div class="common_title">
+			<h3>新鲜水果</h3>
+			<ul>
+				<li><a href="javascript:;">鲜芒</a></li>
+				<li><a href="javascript:;">加州提子</a></li>
+				<li><a href="javascript:;">亚马逊牛油果</a></li>
+			</ul>
+			<a href="javascript:;" class="more fr">查看更多 &gt;</a>
+		</div>
+
+		<div class="common_goods_con">
+			<div class="common_banner fl">
+				<a href="javascript:;"><img src="images/banner04.jpg" alt="广告位"></a>
+			</div>
+			<ul class="common_goods_list fl">
+				<li>
+					<h4>草莓</h4>
+					<a href="javascript:;"><img src="images/goods/goods003.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.00</div>
+				</li>
+				<li>
+					<h4>泰国柠檬</h4>
+					<a href="javascript:;"><img src="images/goods/goods001.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>维多利亚葡萄</h4>
+					<a href="javascript:;"><img src="images/goods/goods002.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+				<li>
+					<h4>进口奇异果</h4>
+					<a href="javascript:;"><img src="images/goods/goods012.jpg" alt="商品图片"></a>
+					<div class="price">￥ 38.90</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer_links">
+			<a href="javascript:;">关于我们</a>
+			<span>|</span>
+			<a href="javascript:;">联系我们</a>
+			<span>|</span>
+			<a href="javascript:;">招聘人才</a>
+			<span>|</span>
+			<a href="javascript:;">友情链接</a>
+
+			<p class="copyright">©2020 Baidu (京)-经营性-2017-0020京公网安备11000002000001号</p>
+			<p>电话：021 5888-5888 京ICP证030173号</p>
+		</div>
+	</div>
+</body>
+</html>
