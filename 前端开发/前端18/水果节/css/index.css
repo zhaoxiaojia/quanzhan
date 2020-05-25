@@ -1,0 +1,49 @@
+.navbar-brand{
+	padding: 7px 15px 0 15px;
+}
+.navbar-inverse{
+	background-color: #ff722b;
+	border-color: #ff722b;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #c75922;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
+    background-color: #c75922;
+}
+
+.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	background: url(../images/banner_bg.jpg) center center no-repeat;
+	padding: 25px 0;
+}
+
+.banner_title{
+	margin-top: 47px;
+}
+
+.banner_detial_title{
+	font-size: 18px;
+	color: #ffff00;
+}
+
+.jumbotron .banner_detial{
+	font-size: 14px;
+	color: #fff;
+	line-height: 28px;
+}
